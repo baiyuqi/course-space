@@ -14,7 +14,6 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.hbpvu.jec.bookstore.category.repository.dao.Product;
@@ -32,7 +31,7 @@ public class ProductServiceImpl2 implements ProductService {
     @PersistenceContext  EntityManager em;
     @Autowired
     ObjectMapper objectMapper;
-@Transactional
+
     @Override
     public String createProduct(Product product) {
 /*
@@ -51,14 +50,14 @@ public class ProductServiceImpl2 implements ProductService {
         return rst;
     }
 
-    @Transactional
+
     @Override
     public void deleteProduct(String productId) {
 
     	Product rst = em.find(Product.class, productId);
         em.remove(rst);
     }
-    @Transactional
+
     @Override
     public void updateProduct(Product product) {
 
