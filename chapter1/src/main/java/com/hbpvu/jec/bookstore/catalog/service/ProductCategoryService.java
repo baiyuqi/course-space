@@ -1,8 +1,8 @@
-package com.hbpvu.jec.chapter1.category.service;
+package com.hbpvu.jec.bookstore.catalog.service;
 
 import org.springframework.data.domain.Page;
 
-import com.hbpvu.jec.chapter1.category.repository.dao.ProductCategory;
+import com.hbpvu.jec.bookstore.catalog.repository.dao.ProductCategory;
 
 /**
  * @author: Devaraj Reddy, Date : 2019-09-27

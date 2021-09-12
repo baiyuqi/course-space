@@ -1,12 +1,12 @@
-package com.hbpvu.jec.chapter1.category.service.impl;
+package com.hbpvu.jec.bookstore.catalog.service.impl;
 
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.hbpvu.jec.chapter1.category.repository.ProductCategoryRepository;
-import com.hbpvu.jec.chapter1.category.repository.ProductRepository;
-import com.hbpvu.jec.chapter1.category.repository.dao.Product;
-import com.hbpvu.jec.chapter1.category.repository.dao.ProductCategory;
-import com.hbpvu.jec.chapter1.category.service.ProductService;
+import com.hbpvu.jec.bookstore.catalog.repository.ProductCategoryRepository;
+import com.hbpvu.jec.bookstore.catalog.repository.ProductRepository;
+import com.hbpvu.jec.bookstore.catalog.repository.dao.Product;
+import com.hbpvu.jec.bookstore.catalog.repository.dao.ProductCategory;
+import com.hbpvu.jec.bookstore.catalog.service.ProductService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;

@@ -1,9 +1,9 @@
-package com.hbpvu.jec.chapter1.category.repository.dao;
+package com.hbpvu.jec.bookstore.catalog.repository.dao;
 
 
 import org.hibernate.annotations.GenericGenerator;
 
-import com.hbpvu.jec.chapter1.common.DateAudit;
+import com.hbpvu.jec.bookstore.common.DateAudit;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Column;

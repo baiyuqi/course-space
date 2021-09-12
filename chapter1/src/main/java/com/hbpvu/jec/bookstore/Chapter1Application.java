@@ -1,4 +1,4 @@
-package com.hbpvu.jec.chapter1;
+package com.hbpvu.jec.bookstore;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

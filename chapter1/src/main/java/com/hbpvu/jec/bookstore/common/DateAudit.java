@@ -1,4 +1,4 @@
-package com.hbpvu.jec.chapter1.common;
+package com.hbpvu.jec.bookstore.common;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import org.springframework.data.annotation.CreatedDate;

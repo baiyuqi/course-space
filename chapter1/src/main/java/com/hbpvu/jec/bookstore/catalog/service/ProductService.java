@@ -1,10 +1,10 @@
-package com.hbpvu.jec.chapter1.category.service;
+package com.hbpvu.jec.bookstore.catalog.service;
 
 
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 
-import com.hbpvu.jec.chapter1.category.repository.dao.Product;
+import com.hbpvu.jec.bookstore.catalog.repository.dao.Product;
 
 
 /**

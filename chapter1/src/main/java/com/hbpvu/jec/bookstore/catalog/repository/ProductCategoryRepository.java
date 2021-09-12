@@ -1,9 +1,9 @@
-package com.hbpvu.jec.chapter1.category.repository;
+package com.hbpvu.jec.bookstore.catalog.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.hbpvu.jec.chapter1.category.repository.dao.ProductCategory;
+import com.hbpvu.jec.bookstore.catalog.repository.dao.ProductCategory;
 
 
 /**

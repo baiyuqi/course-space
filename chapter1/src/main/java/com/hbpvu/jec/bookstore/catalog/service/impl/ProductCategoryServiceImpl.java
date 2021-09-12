@@ -1,4 +1,4 @@
-package com.hbpvu.jec.chapter1.category.service.impl;
+package com.hbpvu.jec.bookstore.catalog.service.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -7,9 +7,9 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
-import com.hbpvu.jec.chapter1.category.repository.ProductCategoryRepository;
-import com.hbpvu.jec.chapter1.category.repository.dao.ProductCategory;
-import com.hbpvu.jec.chapter1.category.service.ProductCategoryService;
+import com.hbpvu.jec.bookstore.catalog.repository.ProductCategoryRepository;
+import com.hbpvu.jec.bookstore.catalog.repository.dao.ProductCategory;
+import com.hbpvu.jec.bookstore.catalog.service.ProductCategoryService;
 
 import java.util.Optional;
 
