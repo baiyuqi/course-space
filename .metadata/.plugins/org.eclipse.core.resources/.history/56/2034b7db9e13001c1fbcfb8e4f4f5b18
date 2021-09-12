@@ -1,9 +1,9 @@
-package com.hbpvu.jec.bookstore.category.service.impl;
-
-import java.util.Optional;
+package com.hbpvu.jec.bookstore.category.service.impl2;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Primary;
 import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageImpl;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
@@ -11,41 +11,42 @@ import org.springframework.stereotype.Service;
 
 import com.hbpvu.jec.bookstore.category.repository.ProductCategoryRepository;
 import com.hbpvu.jec.bookstore.category.repository.dao.ProductCategory;
+import com.hbpvu.jec.bookstore.category.service.ImplSwitch;
 import com.hbpvu.jec.bookstore.category.service.ProductCategoryService;
+
+import java.util.List;
+import java.util.Optional;
+
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
 
 /**
  * @author: Devaraj Reddy,
  * Date : 2019-06-06
  */
 @Service
-public class ProductCategoryServiceImpl implements ProductCategoryService {
+@Primary
+public class ProductCategoryServiceImpl2 implements ProductCategoryService {
 
-    @Autowired
-    ProductCategoryRepository productCategoryRepository;
+    @PersistenceContext  EntityManager em;
 
     @Override
     public String createProductCategory(
     		ProductCategory cat) {
-
-        
-        ProductCategory savedProductCategory = productCategoryRepository.save(cat);
-        return savedProductCategory.getId();
+        em.persist(cat);
+        return cat.getId();
     }
 
     @Override
     public ProductCategory getProductCategory(String productCategoryId) {
-
-        Optional<ProductCategory> productCategoryOptional = productCategoryRepository.findById(productCategoryId);
-
-        ProductCategory productCategory = productCategoryOptional.orElseThrow(() -> new RuntimeException("Product Category doesn't exist!"));
-
-        return productCategory;
+    	ProductCategory rst = em.find(ProductCategory.class, productCategoryId);
+        return rst;
     }
 
     @Override
     public void deleteProductCategory(String productCategoryId) {
-
-        productCategoryRepository.deleteById(productCategoryId);
+    	ProductCategory rst = em.find(ProductCategory.class, productCategoryId);
+        em.remove(rst);
 
     }
 
@@ -57,9 +58,7 @@ public class ProductCategoryServiceImpl implements ProductCategoryService {
                 this.getProductCategory(cat.getId());
         old.setName(cat.getName());
         old.setDescription(cat.getName());
-     
-
-        productCategoryRepository.save(old);
+        em.persist(old);
 
     }
     
@@ -96,6 +95,9 @@ public class ProductCategoryServiceImpl implements ProductCategoryService {
             
         }
         
-        return productCategoryRepository.findAll(pageable);
+        List<ProductCategory> data = em.createQuery("from ProductCategory", ProductCategory.class).setFirstResult((int)pageable.getOffset()).setMaxResults(pageable.getPageSize()).getResultList();
+        
+        Page<ProductCategory> rst = new  PageImpl<ProductCategory>(data,pageable, data.size());
+        return rst;
     }
 }

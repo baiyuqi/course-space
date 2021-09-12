@@ -58,7 +58,6 @@ INDEX VERSION 1.131+D:\java-enterprise-course\course-space\.metadata\.plugins\or
 1716361302.index
 2269171657.index
 505333247.index
-3518450642.index
 3848787651.index
 2418570424.index
 111543725.index

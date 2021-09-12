@@ -1,34 +1,38 @@
-package com.hbpvu.jec.bookstore.category.service.impl2;
+package com.hbpvu.jec.bookstore.category.service.impl;
 
 
-import java.util.List;
-
-import javax.persistence.EntityManager;
-import javax.persistence.PersistenceContext;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.hbpvu.jec.bookstore.category.repository.ProductCategoryRepository;
+import com.hbpvu.jec.bookstore.category.repository.ProductRepository;
+import com.hbpvu.jec.bookstore.category.repository.dao.Product;
+import com.hbpvu.jec.bookstore.category.repository.dao.ProductCategory;
+import com.hbpvu.jec.bookstore.category.service.ImplSwitch;
+import com.hbpvu.jec.bookstore.category.service.ProductService;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Primary;
 import org.springframework.data.domain.Page;
-import org.springframework.data.domain.PageImpl;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.hbpvu.jec.bookstore.category.repository.dao.Product;
-import com.hbpvu.jec.bookstore.category.repository.dao.ProductCategory;
-import com.hbpvu.jec.bookstore.category.service.ProductService;
+import java.util.List;
+import java.util.Optional;
 
 /**
  * @author: Devaraj Reddy,
  * Date : 2019-06-06
  */
 @Service
-@Primary
-public class ProductServiceImpl2 implements ProductService {
+public class ProductServiceImpl implements ProductService {
 
-    @PersistenceContext  EntityManager em;
+    @Autowired
+    ProductRepository productRepository;
+
+    @Autowired
+    ProductCategoryRepository productCategoryRepository;
+
+
     @Autowired
     ObjectMapper objectMapper;
 
@@ -40,29 +44,37 @@ public class ProductServiceImpl2 implements ProductService {
 
         ProductCategory productCategory = productCategoryOptional.orElseThrow(() -> new RuntimeException("ProductCategory doesn't exist!"));
         */
-         em.persist(product);
-        return product.getId();
+        Product savedProduct = productRepository.save(product);
+        return savedProduct.getId();
     }
 
     @Override
     public Product getProduct(String productId) {
-    	Product rst = em.find(Product.class, productId);
-        return rst;
+        Optional<Product> productOptional =
+                productRepository.findById(productId);
+
+        Product product = productOptional.orElseThrow(() -> new RuntimeException("Product Id doesn't exist!"));
+     
+        return product;
     }
 
 
     @Override
     public void deleteProduct(String productId) {
 
-    	Product rst = em.find(Product.class, productId);
-        em.remove(rst);
+        productRepository.deleteById(productId);
+
     }
 
     @Override
     public void updateProduct(Product product) {
 
-    	Product productExisting = em.find(Product.class, product.getId());
-      
+        Optional<Product> productOptional =
+                productRepository.findById(product.getId());
+
+        //check weather product exists
+        final Product productExisting = productOptional.orElseThrow(() -> new RuntimeException("Product Id doesn't exist!"));
+
     
 
         if (product.getName() != null) {
@@ -82,7 +94,11 @@ public class ProductServiceImpl2 implements ProductService {
         }
 
         if (product.getCategory() != null) {
-        	ProductCategory productCategory = em.find(ProductCategory.class, product.getProductCategoryId());
+            Optional<ProductCategory> productCategoryOptional =
+                    productCategoryRepository.findById(product.getCategory().getId());
+
+            //check weather product category exists
+            ProductCategory productCategory = productCategoryOptional.orElseThrow(() -> new RuntimeException("ProductCategory doesn't exist!"));
             productExisting.setCategory(productCategory);
         }
 
@@ -92,10 +108,10 @@ public class ProductServiceImpl2 implements ProductService {
 
         productExisting.setCreatedAt(productExisting.getCreatedAt());
 
-        em.persist(productExisting);
+        productRepository.save(productExisting);
     }
 
-   
+
     
     @Override
     public Page<Product> getAllProducts(String sort, Integer page, Integer size) {
@@ -129,9 +145,8 @@ public class ProductServiceImpl2 implements ProductService {
             }
             
         }
-       List<Product> data = em.createQuery("from Product", Product.class).setFirstResult((int)pageable.getOffset()).setMaxResults(pageable.getPageSize()).getResultList();
-        
-        Page<Product> rst = new  PageImpl<Product>(data,pageable, data.size());
-        return rst;
+        Page<Product> allProducts = productRepository.findAll(pageable);
+   
+        return allProducts;
     }
 }

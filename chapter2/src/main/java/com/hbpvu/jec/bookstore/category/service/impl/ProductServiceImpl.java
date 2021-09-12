@@ -1,13 +1,7 @@
 package com.hbpvu.jec.bookstore.category.service.impl;
 
 
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.hbpvu.jec.bookstore.category.repository.ProductCategoryRepository;
-import com.hbpvu.jec.bookstore.category.repository.ProductRepository;
-import com.hbpvu.jec.bookstore.category.repository.dao.Product;
-import com.hbpvu.jec.bookstore.category.repository.dao.ProductCategory;
-import com.hbpvu.jec.bookstore.category.service.ImplSwitch;
-import com.hbpvu.jec.bookstore.category.service.ProductService;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -16,8 +10,12 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
-import java.util.List;
-import java.util.Optional;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.hbpvu.jec.bookstore.category.repository.ProductCategoryRepository;
+import com.hbpvu.jec.bookstore.category.repository.ProductRepository;
+import com.hbpvu.jec.bookstore.category.repository.dao.Product;
+import com.hbpvu.jec.bookstore.category.repository.dao.ProductCategory;
+import com.hbpvu.jec.bookstore.category.service.ProductService;
 
 /**
  * @author: Devaraj Reddy,

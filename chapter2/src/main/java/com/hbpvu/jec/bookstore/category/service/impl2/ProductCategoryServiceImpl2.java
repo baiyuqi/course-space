@@ -1,6 +1,10 @@
 package com.hbpvu.jec.bookstore.category.service.impl2;
 
-import org.springframework.beans.factory.annotation.Autowired;
+import java.util.List;
+
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+
 import org.springframework.context.annotation.Primary;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageImpl;
@@ -9,16 +13,8 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
-import com.hbpvu.jec.bookstore.category.repository.ProductCategoryRepository;
 import com.hbpvu.jec.bookstore.category.repository.dao.ProductCategory;
-import com.hbpvu.jec.bookstore.category.service.ImplSwitch;
 import com.hbpvu.jec.bookstore.category.service.ProductCategoryService;
-
-import java.util.List;
-import java.util.Optional;
-
-import javax.persistence.EntityManager;
-import javax.persistence.PersistenceContext;
 
 /**
  * @author: Devaraj Reddy,
