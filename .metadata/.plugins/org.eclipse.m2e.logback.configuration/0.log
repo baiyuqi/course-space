@@ -5369,3 +5369,10 @@ org.eclipse.core.runtime.CoreException: Launch configuration BookstoreApplicatio
 2021-09-13 05:42:50,522 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2021-09-13 05:42:50,522 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
 2021-09-13 05:42:50,522 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\java-enterprise-course\course-space\chapter1\src\test\resources
+2021-09-13 05:45:01,571 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-13 05:45:01,571 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-09-13 05:45:01,573 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2021-09-13 05:45:01,608 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 14 resources
+2021-09-13 05:45:01,619 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-13 05:45:01,619 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-09-13 05:45:01,619 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\java-enterprise-course\course-space\chapter1\src\test\resources
