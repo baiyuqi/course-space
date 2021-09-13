@@ -1,4 +1,4 @@
-package com.hbpvu.jec.bookstore.commons.security;
+package com.hbpvu.jec.bookstore.config;
 
 import org.springframework.core.Ordered;
 import org.springframework.core.annotation.Order;

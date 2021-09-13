@@ -45,7 +45,7 @@ public class SwaggerConfig {
         .securitySchemes(Arrays.asList(apiKey()))
         .securityContexts(Collections.singletonList(securityContext()))
         .select()
-        .apis(RequestHandlerSelectors.basePackage("com.devd.spring"))
+        .apis(RequestHandlerSelectors.basePackage("com.hbpvu.jec.bookstore"))
         .paths(PathSelectors.any())
         .build()
         .apiInfo(apiInfo);

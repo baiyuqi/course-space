@@ -6,13 +6,13 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.FilterType;
 
-import com.hbpvu.jec.bookstore.commons.security.GlobalResourceServerConfig;
+import com.hbpvu.jec.bookstore.config.GlobalResourceServerConfig;
 
 /**
  * @author: Devaraj Reddy, Date : 2019-05-16
  */
 @SpringBootApplication
-@ComponentScan(basePackages = {"com.devd.spring"}, excludeFilters = {
+@ComponentScan(basePackages = {"com.hbpvu.jec.bookstore"}, excludeFilters = {
     @ComponentScan.Filter(type = FilterType.ASSIGNABLE_TYPE, value = GlobalResourceServerConfig.class)})
 
 public class BookstoreApplication {

@@ -1,4 +1,4 @@
-package com.hbpvu.jec.bookstore.commons.config;
+package com.hbpvu.jec.bookstore.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
