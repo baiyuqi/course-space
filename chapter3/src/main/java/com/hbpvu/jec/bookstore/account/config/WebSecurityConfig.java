@@ -17,22 +17,8 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     @Override
     protected void configure(HttpSecurity http) throws Exception {
-    	 http
-         .cors()
-         .and()
-         .headers()
-         .frameOptions()
-         .disable()
-         .and()
-         .requestMatchers()
-         .and()
-         .authorizeRequests()
-         .antMatchers("/swagger-ui.html","/swagger-resources/**","/actuator/**", "/api-docs/**", "/h2-console/**", "/signin", "/authorize", "/signup").permitAll()
-         .antMatchers(HttpMethod.POST, "/oauth/token").permitAll()
-         .antMatchers(HttpMethod.GET, "/product**/**").permitAll()
-         .antMatchers(HttpMethod.GET, "/review/**").permitAll()
-         .antMatchers(HttpMethod.GET, "/image/**").permitAll()
-         .antMatchers("/**").authenticated();
+    	super.configure(http);
+    	
     }
 
     @Override
