@@ -6,6 +6,7 @@ import org.springframework.security.config.annotation.method.configuration.Enabl
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
 /**
  * Created by jack on 2017/4/27.
@@ -17,16 +18,34 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     @Override
     protected void configure(HttpSecurity http) throws Exception {
-    	super.configure(http);
     	
+    	 http
+         .cors()
+         .and()
+         .headers()
+         .frameOptions()
+         .disable()
+         .and()
+         .requestMatchers()
+         .and()
+         .authorizeRequests()
+         
+         .antMatchers("/swagger-ui.html","/swagger-resources/**","/actuator/**", "/api-docs/**", "/h2-console/**", "/signin", "/authorize", "/signup").permitAll()
+         .antMatchers(HttpMethod.POST, "/oauth/token").permitAll()
+ //        .antMatchers(HttpMethod.GET, "/product**/**").permitAll()
+         .antMatchers(HttpMethod.GET, "/review/**").permitAll()
+         .antMatchers(HttpMethod.GET, "/image/**").permitAll()
+         .antMatchers("/**").authenticated();
+    	 http.formLogin();
     }
 
     @Override
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {
         auth
             .inMemoryAuthentication()
+            .passwordEncoder(new BCryptPasswordEncoder())
             .withUser("root")
-            .password("root")
+            .password(new BCryptPasswordEncoder().encode("root"))
             .roles("USER");
     }
 
