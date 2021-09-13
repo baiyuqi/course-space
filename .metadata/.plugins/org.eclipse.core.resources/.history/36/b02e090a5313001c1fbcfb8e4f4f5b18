@@ -1,5 +1,0 @@
-package org.springframework.data.jpa.repository.support;
-
-public class DeaultQueryHints {
-
-}

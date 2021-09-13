@@ -1,0 +1,217 @@
+{
+	"info": {
+		"_postman_id": "dc651ab2-6bed-4beb-897f-7e944980ca52",
+		"name": "bks",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "新增产品类别",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "054a2956-dbe5-4d7a-8f9e-752b33ed6c48",
+						"exec": [
+							"pm.environment.set(\"productCategoryId\", pm.response.text());\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"name\":\"economics\",\"description\":\"books written by economists\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{courseServiceUrl}}/productCategory",
+					"host": [
+						"{{courseServiceUrl}}"
+					],
+					"path": [
+						"productCategory"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "更新产品类别",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "1e630d78-cb5d-4afb-8e37-c30dd71cfde1",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"id\":\"{{productCategoryId}}\",\"name\":\"economics\",\"description\":\"books written by economists, and is considered ...\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{courseServiceUrl}}/productCategory",
+					"host": [
+						"{{courseServiceUrl}}"
+					],
+					"path": [
+						"productCategory"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "产品类别列表",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{courseServiceUrl}}/productCategories",
+					"host": [
+						"{{courseServiceUrl}}"
+					],
+					"path": [
+						"productCategories"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "新增产品",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "54272cb4-2ad5-4488-8446-0152347ba763",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "dab2a1aa-895e-4867-a1cb-0cfc8147193b",
+						"exec": [
+							"pm.environment.set(\"productId\", pm.response.text());"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"name\":\"Human Action\",\"productCategoryId\":\"{{productCategoryId}}\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{courseServiceUrl}}/product",
+					"host": [
+						"{{courseServiceUrl}}"
+					],
+					"path": [
+						"product"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "更新产品",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "d19d3dd9-ea3a-41b5-8e90-080a2fb71b50",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"id\":\"{{productId}}\", \"name\":\"Human Actionmmmmmmm\",\"productCategoryId\":\"{{productCategoryId}}\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{courseServiceUrl}}/product",
+					"host": [
+						"{{courseServiceUrl}}"
+					],
+					"path": [
+						"product"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "产品列表",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{courseServiceUrl}}/products",
+					"host": [
+						"{{courseServiceUrl}}"
+					],
+					"path": [
+						"products"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "oauth2",
+		"oauth2": [
+			{
+				"key": "addTokenTo",
+				"value": "header",
+				"type": "string"
+			}
+		]
+	},
+	"protocolProfileBehavior": {}
+}

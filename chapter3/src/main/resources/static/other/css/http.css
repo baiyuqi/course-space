@@ -1,0 +1,44 @@
+.wrap-left{
+	width:100%;
+	margin-left: 0px;
+}
+.row {
+    margin-right: -5px;
+    margin-left: -5px;
+}
+.main-http{
+	margin: 20px;
+}
+.row_h{
+	width: 112px;
+}
+.row_url{
+	width: 734px;
+	margin-left: 2px;
+}
+.btn-left{
+	margin-left: 10px;
+}
+.value-http{
+	width: 500px;
+}
+.del-http{
+	margin-left: 4px;
+}
+
+
+/*body {
+  font: 10.5pt arial;
+  color: #4d4d4d;
+  line-height: 150%;
+  width: 500px;
+}
+*/
+code {
+  background-color: #f5f5f5;
+}
+
+#jsoneditor {
+  width: 940px;
+  height: 500px;
+}

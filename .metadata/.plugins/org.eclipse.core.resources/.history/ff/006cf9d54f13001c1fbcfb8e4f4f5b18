@@ -1,5 +1,0 @@
-package com.hbpvu.jec.bookstore.category.service;
-
-public interface ImplSwitch {
-
-}

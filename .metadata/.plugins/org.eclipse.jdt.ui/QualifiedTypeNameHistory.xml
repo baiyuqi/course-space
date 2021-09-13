@@ -14,4 +14,5 @@
     <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.QueryHints"/>
     <fullyQualifiedTypeName name="com.hbpvu.jec.bookstore.category.repository.SimpleJpaRepository"/>
     <fullyQualifiedTypeName name="org.springframework.transaction.annotation.Transactional"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
 </qualifiedTypeNameHistroy>
