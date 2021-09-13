@@ -13,7 +13,7 @@ import springfox.documentation.oas.annotations.EnableOpenApi;
 /**
  * @author: Devaraj Reddy, Date : 2019-05-16
  */
-@EnableOpenApi
+@EnableOpenApi//swagger需要
 @SpringBootApplication
 @ComponentScan(basePackages = {"com.hbpvu.jec.bookstore"}, excludeFilters = {
     @ComponentScan.Filter(type = FilterType.ASSIGNABLE_TYPE, value = GlobalResourceServerConfig.class)})
