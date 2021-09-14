@@ -36,8 +36,6 @@ import java.util.stream.Collectors;
 @Service
 public class UserServiceImpl implements UserService {
 
-  @Autowired
-  private BCryptPasswordEncoder passwordEncoder;
 
   @Autowired
   private UserRepository userRepository;
@@ -51,7 +49,7 @@ public class UserServiceImpl implements UserService {
   @Override
   public String createUser(CreateUserRequest createUserRequest) {
 
-    String encodedPassword = passwordEncoder.encode(createUserRequest.getPassword());
+    String encodedPassword = new BCryptPasswordEncoder().encode(createUserRequest.getPassword());
 
     if (userRepository.existsByUserName(createUserRequest.getUserName())) {
       throw new RunTimeExceptionPlaceHolder("Username is already taken!!");
@@ -173,7 +171,7 @@ public class UserServiceImpl implements UserService {
       userByUserName.setLastName(updateUserRequest.getLastName());
     }
     if(updateUserRequest.getPassword()!=null){
-      String encodedPassword = passwordEncoder.encode(updateUserRequest.getPassword());
+      String encodedPassword = new  BCryptPasswordEncoder().encode(updateUserRequest.getPassword());
       userByUserName.setPassword(encodedPassword);
     }
     if(updateUserRequest.getEmail()!=null){
