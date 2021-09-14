@@ -2,9 +2,10 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
-			<item value="D:\java-enterprise-course\course-space\chapter3"/>
-			<item value="D:\java-enterprise-course\course-space"/>
 			<item value="D:\java-enterprise-course\course-space\chapter1"/>
+			<item value="D:\java-enterprise-course\course-space\bookstore"/>
+			<item value="D:\java-enterprise-course\course-space"/>
+			<item value="D:\java-enterprise-course\course-space\chapter3"/>
 			<item value="D:\java-enterprise-course\course-space\chapter2"/>
 			<item value="D:\bookstore\course"/>
 		</list>
