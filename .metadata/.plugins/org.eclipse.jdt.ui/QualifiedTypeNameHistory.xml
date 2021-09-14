@@ -15,4 +15,6 @@
     <fullyQualifiedTypeName name="com.hbpvu.jec.bookstore.category.repository.SimpleJpaRepository"/>
     <fullyQualifiedTypeName name="org.springframework.transaction.annotation.Transactional"/>
     <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="org.springframework.security.oauth2.provider.token.ResourceServerTokenServices"/>
 </qualifiedTypeNameHistroy>

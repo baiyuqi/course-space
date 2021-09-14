@@ -6,7 +6,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.FilterType;
 
-import com.hbpvu.jec.bookstore.config.GlobalResourceServerConfig;
 
 import springfox.documentation.oas.annotations.EnableOpenApi;
 
@@ -15,8 +14,7 @@ import springfox.documentation.oas.annotations.EnableOpenApi;
  */
 @EnableOpenApi//swagger需要
 @SpringBootApplication
-@ComponentScan(basePackages = {"com.hbpvu.jec.bookstore"}, excludeFilters = {
-    @ComponentScan.Filter(type = FilterType.ASSIGNABLE_TYPE, value = GlobalResourceServerConfig.class)})
+@ComponentScan(basePackages = {"com.hbpvu.jec.bookstore"})
 
 public class BookstoreApplication {
 
