@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/jpa?serverTimezone=GMT%2B8
+    username: root
+    password: 123456
+    hikari:
+      maximum-pool-size: 20
+      minimum-idle: 5
+  jpa:
+    #在建表的时候，将默认的存储引擎切换为 InnoDB
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    # 配置在日志中打印出执行的 SQL 语句信息。
+    show-sql: true
+    # 配置指明在程序启动的时候要删除并且创建实体类对应的表。
+    hibernate:
+      ddl-auto: create #update
