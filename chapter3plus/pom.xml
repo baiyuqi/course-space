@@ -10,10 +10,10 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.hbpvu.jec</groupId>
-	<artifactId>chapter3</artifactId>
+	<artifactId>chapter3plus</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>chapter3</name>
-	<description>tutorial for chapter3</description>
+	<name>chapter3plus</name>
+	<description>tutorial for chapter3 and 4</description>
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>

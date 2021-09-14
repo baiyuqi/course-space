@@ -10407,3 +10407,15 @@ java.lang.IllegalStateException: Conflicting handlers: {[ActionHandler(org.eclip
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+
+!ENTRY org.eclipse.core.net 1 0 2021-09-14 13:59:13.763
+!MESSAGE System property http.proxyHost is set to 127.0.0.1 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2021-09-14 13:59:13.763
+!MESSAGE System property http.proxyPort is set to 10809 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2021-09-14 13:59:13.764
+!MESSAGE System property https.proxyHost is set to 127.0.0.1 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2021-09-14 13:59:13.765
+!MESSAGE System property https.proxyPort is set to 10809 but should not be set.
