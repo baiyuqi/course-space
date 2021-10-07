@@ -1,20 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.fasterxml.jackson.databind.annotation.JsonSerialize"/>
-    <fullyQualifiedTypeName name="com.fasterxml.jackson.datatype.jsr310.ser.LocalDateTimeSerializer"/>
-    <fullyQualifiedTypeName name="com.fasterxml.jackson.datatype.jsr310.JavaTimeModule"/>
-    <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
-    <fullyQualifiedTypeName name="java.util.Date"/>
-    <fullyQualifiedTypeName name="javax.persistence.PersistenceContext"/>
-    <fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
-    <fullyQualifiedTypeName name="org.springframework.data.domain.PageImpl"/>
-    <fullyQualifiedTypeName name="com.hbpvu.jec.bookstore.category.service.ImplSwitch"/>
-    <fullyQualifiedTypeName name="org.springframework.context.annotation.Primary"/>
-    <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.support.SimpleJpaRepository"/>
-    <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.QueryHints"/>
-    <fullyQualifiedTypeName name="com.hbpvu.jec.bookstore.category.repository.SimpleJpaRepository"/>
-    <fullyQualifiedTypeName name="org.springframework.transaction.annotation.Transactional"/>
-    <fullyQualifiedTypeName name="java.util.Set"/>
-    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
-    <fullyQualifiedTypeName name="org.springframework.security.oauth2.provider.token.ResourceServerTokenServices"/>
+    <fullyQualifiedTypeName name="javax.transaction.Transactional"/>
+    <fullyQualifiedTypeName name="com.hbpvu.jec.bookstore.catalog.repository.dao.Product"/>
+    <fullyQualifiedTypeName name="com.hbpvu.jec.bookstore.BookstoreApplication"/>
 </qualifiedTypeNameHistroy>

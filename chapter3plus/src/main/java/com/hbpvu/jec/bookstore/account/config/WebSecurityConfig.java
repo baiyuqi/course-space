@@ -22,6 +22,10 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     	 http
          .cors()
          .and()
+     
+         .csrf()
+         .disable()
+         
          .headers()
          .frameOptions()
          .disable()
@@ -30,13 +34,13 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
          .and()
          .authorizeRequests()
          
-         .antMatchers("/swagger-resources/**","/actuator/**", "/api-docs/**", "/h2-console/**", "/signin", "/authorize", "/signup").permitAll()
-         .antMatchers(HttpMethod.POST, "/oauth/token").permitAll()
-         .antMatchers(HttpMethod.GET, "/product**/**").permitAll()
-         .antMatchers(HttpMethod.GET, "/review/**").permitAll()
-         .antMatchers(HttpMethod.GET, "/image/**").permitAll()
-         .antMatchers("/**").authenticated();
-    	  http.formLogin();
+ //        .antMatchers("/swagger-resources/**","/actuator/**", "/api-docs/**", "/h2-console/**", "/signin", "/authorize", "/signup").permitAll()
+   //      .antMatchers(HttpMethod.POST, "/oauth/token").permitAll()
+     //    .antMatchers(HttpMethod.GET, "/product**/**").permitAll()
+       //  .antMatchers(HttpMethod.GET, "/review/**").permitAll()
+         //.antMatchers(HttpMethod.GET, "/image/**").permitAll()
+         .antMatchers("/**").permitAll();
+    	  //http.formLogin();
     }
 
     @Override
