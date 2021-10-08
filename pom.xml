@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.hbpvu.jec</groupId>
+	<packaging>pom</packaging>
+	<artifactId>course</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+	<modules>
+		<module>bookstore</module>
+		<module>chapter0</module>
+			<module>chapter1</module>
+			<module>chapter2</module>
+			<module>chapter3plus</module>
+			<module>chapter5-security</module>
+			<module>chapter6-aop</module>
+			<module>chapter7-exception-handler</module>
+			<module>chapter8-elasticsearch</module>
+			<module>chapter9-activiti</module>
+			<module>chapterX-mongo</module>
+			<module>chapterX-mq-kafka</module>
+			
+			<module>chapterX-mq-rabbitmq</module>
+			
+			<module>chapterX-orm-mybatis</module>
+			<module>chapterX-orm-mybatis-plus</module>
+			
+			
+		
+	</modules>
+	<name>course</name>
+	<url>http://xkcoding.com</url>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<java.version>1.8</java.version>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+		<mysql.version>8.0.21</mysql.version>
+		<spring.boot.version>2.5.4</spring.boot.version>
+		<hutool.version>5.4.5</hutool.version>
+		<guava.version>29.0-jre</guava.version>
+		<user.agent.version>1.20</user.agent.version>
+	</properties>
+
+	<repositories>
+		<repository>
+			<id>aliyun</id>
+			<name>aliyun</name>
+			<url>https://maven.aliyun.com/repository/public</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
+	</repositories>
+
+</project>

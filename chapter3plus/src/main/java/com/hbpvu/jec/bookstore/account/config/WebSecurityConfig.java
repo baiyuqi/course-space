@@ -51,6 +51,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
             .withUser("root")
             .password(new BCryptPasswordEncoder().encode("root"))
             .roles("USER");
+        auth.
     }
 
 }

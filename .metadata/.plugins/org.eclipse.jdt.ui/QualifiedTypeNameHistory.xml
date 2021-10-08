@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="javax.transaction.Transactional"/>
-    <fullyQualifiedTypeName name="com.hbpvu.jec.bookstore.catalog.repository.dao.Product"/>
-    <fullyQualifiedTypeName name="com.hbpvu.jec.bookstore.BookstoreApplication"/>
-</qualifiedTypeNameHistroy>
