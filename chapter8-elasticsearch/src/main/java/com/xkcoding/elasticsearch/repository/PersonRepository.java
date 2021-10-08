@@ -22,5 +22,6 @@ public interface PersonRepository extends ElasticsearchRepository<Person, Long> 
      * @param max 最大值
      * @return 满足条件的用户列表
      */
-    List<Person> findByAgeBetween(Integer min, Integer max);
+    List<Person> findByAgeBetween(Integer min, Integer max)
 }
+;
