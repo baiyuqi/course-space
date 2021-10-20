@@ -24,6 +24,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     protected void configure(HttpSecurity http) throws Exception {
     	
     	 http
+    	 .csrf().disable()
          .cors()
          .and()
          .headers()
@@ -39,6 +40,8 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
          .antMatchers(HttpMethod.GET, "/product**/**").permitAll()
          .antMatchers(HttpMethod.GET, "/review/**").permitAll()
          .antMatchers(HttpMethod.GET, "/image/**").permitAll()
+         .antMatchers(HttpMethod.GET, "/login.html").permitAll()
+         .antMatchers( "/login").permitAll()
          .antMatchers("/**").authenticated();
     	  http.formLogin();
     }

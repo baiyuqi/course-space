@@ -40,7 +40,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
        //  .antMatchers(HttpMethod.GET, "/review/**").permitAll()
          //.antMatchers(HttpMethod.GET, "/image/**").permitAll()
          .antMatchers("/**").permitAll();
-    	  //http.formLogin();
+ //   	  http.formLogin();
     }
 
     @Override
