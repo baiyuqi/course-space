@@ -1,4 +1,4 @@
-package com.hbpvu.jec.bookstore.test;
+package com.hbpvu.jec;
 
 import java.util.Date;
 
@@ -7,7 +7,7 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-public class JsonTest {
+public class Playaround {
 
 	public static void main(String[] args) throws Throwable {
 		ObjectMapper mapper = new ObjectMapper();
