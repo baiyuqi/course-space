@@ -19,7 +19,7 @@ import lombok.Setter;
  */
 @RestController
 public class IndexController {
-    @GetMapping("/book")
+    @GetMapping(value = "/book",produces = {"application/xml;charset=UTF-8"})
     public Product index() {
     	Product rst = new Product();
     	rst.setName("相对论");
