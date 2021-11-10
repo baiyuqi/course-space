@@ -21,7 +21,7 @@
 			<module>chapter9-activiti</module>
 			<module>chapterX-mongo</module>
 			<module>chapterX-mq-kafka</module>
-			
+			<module>chapterX-cache-redis</module>
 			<module>chapterX-mq-rabbitmq</module>
 			
 			<module>chapterX-orm-mybatis</module>

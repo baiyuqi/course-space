@@ -9,6 +9,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.hbpvu.jec.log.aop.aspectj.Cache;
+
 import java.util.Map;
 
 /**
@@ -31,6 +33,7 @@ public class TestController {
      * @return {@link Dict}
      */
     @GetMapping("/test")
+    @Cache
     public Dict test(String who) {
         return Dict.create().set("who", StrUtil.isBlank(who) ? "me" : who);
     }

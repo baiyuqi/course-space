@@ -23,6 +23,7 @@ import javax.servlet.http.HttpServletRequest;
 import java.net.InetAddress;
 import java.net.UnknownHostException;
 import java.util.Collections;
+import java.util.HashMap;
 import java.util.Map;
 import java.util.Objects;
 
@@ -39,12 +40,16 @@ import java.util.Objects;
 @Component
 @Slf4j
 public class AopLog {
+	HashMap<Integer, Object> cache = new HashMap<Integer, Object>();
     /**
      * 切入点
      */
-    @Pointcut("execution(public * com.hbpvu.jec.log.aop.controller.*Controller.*(..))")
+//	@Pointcut("execution(public * *(..))")
+//	   @Pointcut("@annotation(org.springframework.web.bind.annotation.GetMapping) && @annotation(org.springframework.web.bind.annotation.PostMapping) ")
+   @Pointcut("@annotation(com.hbpvu.log.apo.aspect.Cache)")
+   
+   //@target:  指向一个类，这个类被org.springframework.web.bind.annotation.RestController所标记。这个类的所有函数
     public void log() {
-
     }
 
     /**
@@ -56,34 +61,18 @@ public class AopLog {
      */
     @Around("log()")
     public Object aroundLog(ProceedingJoinPoint point) throws Throwable {
+    	
 
         // 开始打印请求日志
         ServletRequestAttributes attributes = (ServletRequestAttributes) RequestContextHolder.getRequestAttributes();
         HttpServletRequest request = Objects.requireNonNull(attributes).getRequest();
-
-        // 打印请求相关参数
-        long startTime = System.currentTimeMillis();
+        int key = request.getParameterMap().hashCode();
+        
+        if(cache.containsKey(key))
+        	return cache.get(key);
         Object result = point.proceed();
-        String header = request.getHeader("User-Agent");
-        UserAgent userAgent = UserAgent.parseUserAgentString(header);
-
-        final Log l = Log.builder()
-            .threadId(Long.toString(Thread.currentThread().getId()))
-            .threadName(Thread.currentThread().getName())
-            .ip(getIp(request))
-            .url(request.getRequestURL().toString())
-            .classMethod(String.format("%s.%s", point.getSignature().getDeclaringTypeName(),
-                point.getSignature().getName()))
-            .httpMethod(request.getMethod())
-            .requestParams(getNameAndValue(point))
-            .result(result)
-            .timeCost(System.currentTimeMillis() - startTime)
-            .userAgent(header)
-            .browser(userAgent.getBrowser().toString())
-            .os(userAgent.getOperatingSystem().toString()).build();
-
-        log.info("Request Log Info : {}", JSONUtil.toJsonStr(l));
-
+        cache.put(key, result);
+       
         return result;
     }
 

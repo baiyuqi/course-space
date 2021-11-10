@@ -1,0 +1,419 @@
+2021-11-03 07:29:21,313 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:55 - Starting SpringBootDemoLogAopApplicationTests using Java 16.0.2 on LAPTOP-5HBODS5U with PID 6208 (started by baiyuqi in D:\java-enterprise-course\course-space\cource-jee\chapter6-aop)
+2021-11-03 07:29:21,316 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-11-03 07:29:23,154 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:61 - Started SpringBootDemoLogAopApplicationTests in 2.205 seconds (JVM running for 3.03)
+2021-11-03 07:31:31,141 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:55 - Starting SpringBootDemoLogAopApplicationTests using Java 16.0.2 on LAPTOP-5HBODS5U with PID 3844 (started by baiyuqi in D:\java-enterprise-course\course-space\cource-jee\chapter6-aop)
+2021-11-03 07:31:31,143 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-11-03 07:31:32,879 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:61 - Started SpringBootDemoLogAopApplicationTests in 2.094 seconds (JVM running for 2.904)
+2021-11-03 07:31:43,662 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:55 - Starting SpringBootDemoLogAopApplicationTests using Java 16.0.2 on LAPTOP-5HBODS5U with PID 4676 (started by baiyuqi in D:\java-enterprise-course\course-space\cource-jee\chapter6-aop)
+2021-11-03 07:31:43,665 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-11-03 07:31:45,656 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:61 - Started SpringBootDemoLogAopApplicationTests in 2.433 seconds (JVM running for 3.678)
+2021-11-03 07:31:59,647 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:55 - Starting SpringBootDemoLogAopApplicationTests using Java 16.0.2 on LAPTOP-5HBODS5U with PID 13400 (started by baiyuqi in D:\java-enterprise-course\course-space\cource-jee\chapter6-aop)
+2021-11-03 07:31:59,650 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-11-03 07:32:01,579 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:61 - Started SpringBootDemoLogAopApplicationTests in 2.341 seconds (JVM running for 3.489)
+2021-11-03 07:32:08,488 [main] INFO  [com.hbpvu.jec.log.aop.aspectj.AopLog] AopLog.java:85 - Request Log Info : {"classMethod":"com.hbpvu.jec.log.aop.controller.TestController.test","os":"UNKNOWN","ip":"192.168.124.6","requestParams":{"who":"hhh"},"httpMethod":"","threadName":"main","url":"http://localhost","threadId":"1","result":{"who":"hhh"},"browser":"UNKNOWN","timeCost":33}
+2021-11-03 07:32:39,290 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:55 - Starting SpringBootDemoLogAopApplicationTests using Java 16.0.2 on LAPTOP-5HBODS5U with PID 8380 (started by baiyuqi in D:\java-enterprise-course\course-space\cource-jee\chapter6-aop)
+2021-11-03 07:32:39,293 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-11-03 07:32:41,343 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:61 - Started SpringBootDemoLogAopApplicationTests in 2.457 seconds (JVM running for 3.523)
+2021-11-03 07:32:47,561 [main] INFO  [com.hbpvu.jec.log.aop.aspectj.AopLog] AopLog.java:85 - Request Log Info : {"classMethod":"com.hbpvu.jec.log.aop.controller.TestController.test","os":"UNKNOWN","ip":"192.168.124.6","requestParams":{"who":"hhh"},"httpMethod":"","threadName":"main","url":"http://localhost","threadId":"1","result":{"who":"hhh"},"browser":"UNKNOWN","timeCost":43}
+2021-11-03 07:33:39,610 [main] INFO  [c.h.jec.log.aop.SpringBootDemoLogAopApplication] StartupInfoLogger.java:55 - Starting SpringBootDemoLogAopApplication using Java 16.0.2 on LAPTOP-5HBODS5U with PID 22612 (D:\java-enterprise-course\course-space\cource-jee\chapter6-aop\target\classes started by baiyuqi in D:\java-enterprise-course\course-space\cource-jee\chapter6-aop)
+2021-11-03 07:33:39,615 [main] INFO  [c.h.jec.log.aop.SpringBootDemoLogAopApplication] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-11-03 07:33:40,708 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+2021-11-03 07:33:40,720 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+2021-11-03 07:33:40,720 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-11-03 07:33:40,821 [main] INFO  [o.a.c.c.ContainerBase.[Tomcat].[localhost].[/demo]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+2021-11-03 07:33:40,822 [main] INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] ServletWebServerApplicationContext.java:290 - Root WebApplicationContext: initialization completed in 1165 ms
+2021-11-03 07:33:41,271 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:220 - Tomcat started on port(s): 8080 (http) with context path '/demo'
+2021-11-03 07:33:41,282 [main] INFO  [c.h.jec.log.aop.SpringBootDemoLogAopApplication] StartupInfoLogger.java:61 - Started SpringBootDemoLogAopApplication in 2.178 seconds (JVM running for 2.757)
+2021-11-03 07:34:34,569 [http-nio-8080-exec-3] INFO  [o.a.c.c.ContainerBase.[Tomcat].[localhost].[/demo]] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-03 07:34:34,569 [http-nio-8080-exec-3] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:525 - Initializing Servlet 'dispatcherServlet'
+2021-11-03 07:34:34,570 [http-nio-8080-exec-3] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:547 - Completed initialization in 1 ms
+2021-11-03 07:36:45,648 [http-nio-8080-exec-5] INFO  [com.hbpvu.jec.log.aop.aspectj.AopLog] AopLog.java:85 - Request Log Info : {"classMethod":"com.hbpvu.jec.log.aop.controller.TestController.test","os":"WINDOWS_10","ip":"0:0:0:0:0:0:0:1","requestParams":{"who":"ppp"},"userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36","httpMethod":"GET","threadName":"http-nio-8080-exec-5","url":"http://localhost:8080/demo/test","threadId":"32","result":{"who":"ppp"},"browser":"CHROME9","timeCost":46310}
+2021-11-03 07:48:24,538 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:55 - Starting SpringBootDemoLogAopApplicationTests using Java 16.0.2 on LAPTOP-5HBODS5U with PID 24888 (started by baiyuqi in D:\java-enterprise-course\course-space\cource-jee\chapter6-aop)
+2021-11-03 07:48:24,543 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-11-03 07:48:25,221 [main] WARN  [o.s.w.context.support.GenericWebApplicationContext] AbstractApplicationContext.java:591 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springBootDemoLogAopApplication': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting ')' at character position 18
+annotation(public * org.springframework.web.bind.annotation.RestController)
+                  ^
+
+2021-11-03 07:48:25,229 [main] INFO  [o.s.b.a.l.ConditionEvaluationReportLoggingListener] ConditionEvaluationReportLoggingListener.java:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-11-03 07:48:25,303 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:55 - Starting SpringBootDemoLogAopApplicationTests using Java 16.0.2 on LAPTOP-5HBODS5U with PID 24888 (started by baiyuqi in D:\java-enterprise-course\course-space\cource-jee\chapter6-aop)
+2021-11-03 07:48:25,304 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-11-03 07:48:25,530 [main] WARN  [o.s.w.context.support.GenericWebApplicationContext] AbstractApplicationContext.java:591 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springBootDemoLogAopApplication': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting ')' at character position 18
+annotation(public * org.springframework.web.bind.annotation.RestController)
+                  ^
+
+2021-11-03 07:48:25,533 [main] INFO  [o.s.b.a.l.ConditionEvaluationReportLoggingListener] ConditionEvaluationReportLoggingListener.java:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-11-03 07:48:40,557 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:55 - Starting SpringBootDemoLogAopApplicationTests using Java 16.0.2 on LAPTOP-5HBODS5U with PID 7836 (started by baiyuqi in D:\java-enterprise-course\course-space\cource-jee\chapter6-aop)
+2021-11-03 07:48:40,560 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-11-03 07:48:41,230 [main] WARN  [o.s.w.context.support.GenericWebApplicationContext] AbstractApplicationContext.java:591 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springBootDemoLogAopApplication': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: error at ::0 can't find referenced pointcut annotation
+2021-11-03 07:48:41,238 [main] INFO  [o.s.b.a.l.ConditionEvaluationReportLoggingListener] ConditionEvaluationReportLoggingListener.java:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-11-03 07:48:41,320 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:55 - Starting SpringBootDemoLogAopApplicationTests using Java 16.0.2 on LAPTOP-5HBODS5U with PID 7836 (started by baiyuqi in D:\java-enterprise-course\course-space\cource-jee\chapter6-aop)
+2021-11-03 07:48:41,322 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-11-03 07:48:41,530 [main] WARN  [o.s.w.context.support.GenericWebApplicationContext] AbstractApplicationContext.java:591 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springBootDemoLogAopApplication': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: error at ::0 can't find referenced pointcut annotation
+2021-11-03 07:48:41,532 [main] INFO  [o.s.b.a.l.ConditionEvaluationReportLoggingListener] ConditionEvaluationReportLoggingListener.java:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-11-03 07:49:31,355 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:55 - Starting SpringBootDemoLogAopApplicationTests using Java 16.0.2 on LAPTOP-5HBODS5U with PID 13168 (started by baiyuqi in D:\java-enterprise-course\course-space\cource-jee\chapter6-aop)
+2021-11-03 07:49:31,358 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-11-03 07:49:32,035 [main] WARN  [o.s.w.context.support.GenericWebApplicationContext] AbstractApplicationContext.java:591 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springBootDemoLogAopApplication': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: org.springframework.web.bind.annotation.GetMappting [Xlint:invalidAbsoluteTypeName]
+2021-11-03 07:49:32,042 [main] INFO  [o.s.b.a.l.ConditionEvaluationReportLoggingListener] ConditionEvaluationReportLoggingListener.java:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-11-03 07:49:32,119 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:55 - Starting SpringBootDemoLogAopApplicationTests using Java 16.0.2 on LAPTOP-5HBODS5U with PID 13168 (started by baiyuqi in D:\java-enterprise-course\course-space\cource-jee\chapter6-aop)
+2021-11-03 07:49:32,120 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-11-03 07:49:32,321 [main] WARN  [o.s.w.context.support.GenericWebApplicationContext] AbstractApplicationContext.java:591 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springBootDemoLogAopApplication': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: org.springframework.web.bind.annotation.GetMappting [Xlint:invalidAbsoluteTypeName]
+2021-11-03 07:49:32,323 [main] INFO  [o.s.b.a.l.ConditionEvaluationReportLoggingListener] ConditionEvaluationReportLoggingListener.java:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-11-03 07:49:45,154 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:55 - Starting SpringBootDemoLogAopApplicationTests using Java 16.0.2 on LAPTOP-5HBODS5U with PID 15844 (started by baiyuqi in D:\java-enterprise-course\course-space\cource-jee\chapter6-aop)
+2021-11-03 07:49:45,156 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-11-03 07:49:45,836 [main] WARN  [o.s.w.context.support.GenericWebApplicationContext] AbstractApplicationContext.java:591 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springBootDemoLogAopApplication': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: error at ::0 can't find referenced pointcut annotation
+2021-11-03 07:49:45,845 [main] INFO  [o.s.b.a.l.ConditionEvaluationReportLoggingListener] ConditionEvaluationReportLoggingListener.java:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-11-03 07:49:45,927 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:55 - Starting SpringBootDemoLogAopApplicationTests using Java 16.0.2 on LAPTOP-5HBODS5U with PID 15844 (started by baiyuqi in D:\java-enterprise-course\course-space\cource-jee\chapter6-aop)
+2021-11-03 07:49:45,928 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-11-03 07:49:46,124 [main] WARN  [o.s.w.context.support.GenericWebApplicationContext] AbstractApplicationContext.java:591 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springBootDemoLogAopApplication': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: error at ::0 can't find referenced pointcut annotation
+2021-11-03 07:49:46,126 [main] INFO  [o.s.b.a.l.ConditionEvaluationReportLoggingListener] ConditionEvaluationReportLoggingListener.java:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-11-03 07:51:16,902 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:55 - Starting SpringBootDemoLogAopApplicationTests using Java 16.0.2 on LAPTOP-5HBODS5U with PID 23792 (started by baiyuqi in D:\java-enterprise-course\course-space\cource-jee\chapter6-aop)
+2021-11-03 07:51:16,905 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-11-03 07:51:22,938 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:61 - Started SpringBootDemoLogAopApplicationTests in 6.426 seconds (JVM running for 7.468)
+2021-11-03 07:51:41,346 [main] INFO  [com.hbpvu.jec.log.aop.aspectj.AopLog] AopLog.java:86 - Request Log Info : {"classMethod":"com.hbpvu.jec.log.aop.controller.TestController.test","os":"UNKNOWN","ip":"192.168.124.6","requestParams":{"who":"hhh"},"httpMethod":"","threadName":"main","url":"http://localhost","threadId":"1","result":{"who":"hhh"},"browser":"UNKNOWN","timeCost":9510}
+2021-11-03 07:53:46,335 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:55 - Starting SpringBootDemoLogAopApplicationTests using Java 16.0.2 on LAPTOP-5HBODS5U with PID 9224 (started by baiyuqi in D:\java-enterprise-course\course-space\cource-jee\chapter6-aop)
+2021-11-03 07:53:46,337 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-11-03 07:53:47,941 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:61 - Started SpringBootDemoLogAopApplicationTests in 1.941 seconds (JVM running for 2.743)
+2021-11-03 07:53:56,229 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:55 - Starting SpringBootDemoLogAopApplicationTests using Java 16.0.2 on LAPTOP-5HBODS5U with PID 21264 (started by baiyuqi in D:\java-enterprise-course\course-space\cource-jee\chapter6-aop)
+2021-11-03 07:53:56,232 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-11-03 07:53:58,111 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:61 - Started SpringBootDemoLogAopApplicationTests in 2.283 seconds (JVM running for 3.349)
+2021-11-03 07:59:53,918 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:55 - Starting SpringBootDemoLogAopApplicationTests using Java 16.0.2 on LAPTOP-5HBODS5U with PID 12284 (started by baiyuqi in D:\java-enterprise-course\course-space\cource-jee\chapter6-aop)
+2021-11-03 07:59:53,922 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-11-03 07:59:55,952 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:61 - Started SpringBootDemoLogAopApplicationTests in 2.44 seconds (JVM running for 3.516)
+2021-11-03 08:00:03,616 [main] INFO  [com.hbpvu.jec.log.aop.aspectj.AopLog] AopLog.java:87 - Request Log Info : {"classMethod":"com.hbpvu.jec.log.aop.controller.TestController.test","os":"UNKNOWN","ip":"192.168.124.6","requestParams":{"who":"hhh"},"httpMethod":"","threadName":"main","url":"http://localhost","threadId":"1","result":{"who":"hhh"},"browser":"UNKNOWN","timeCost":1167}
+2021-11-03 08:40:41,593 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:55 - Starting SpringBootDemoLogAopApplicationTests using Java 16.0.2 on LAPTOP-5HBODS5U with PID 18436 (started by baiyuqi in D:\java-enterprise-course\course-space\cource-jee\chapter6-aop)
+2021-11-03 08:40:41,596 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-11-03 08:40:43,343 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:61 - Started SpringBootDemoLogAopApplicationTests in 2.086 seconds (JVM running for 2.885)
+2021-11-03 08:40:43,706 [main] INFO  [com.hbpvu.jec.log.aop.aspectj.AopLog] AopLog.java:87 - Request Log Info : {"classMethod":"com.hbpvu.jec.log.aop.controller.TestController.test","os":"UNKNOWN","ip":"192.168.124.6","requestParams":{"who":"hhh"},"httpMethod":"","threadName":"main","url":"http://localhost","threadId":"1","result":{"who":"hhh"},"browser":"UNKNOWN","timeCost":30}
+2021-11-03 08:41:11,923 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:55 - Starting SpringBootDemoLogAopApplicationTests using Java 16.0.2 on LAPTOP-5HBODS5U with PID 7848 (started by baiyuqi in D:\java-enterprise-course\course-space\cource-jee\chapter6-aop)
+2021-11-03 08:41:11,926 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-11-03 08:41:13,662 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:61 - Started SpringBootDemoLogAopApplicationTests in 2.105 seconds (JVM running for 2.935)
+2021-11-03 08:41:14,043 [main] INFO  [com.hbpvu.jec.log.aop.aspectj.AopLog] AopLog.java:87 - Request Log Info : {"classMethod":"com.hbpvu.jec.log.aop.controller.TestController.test","os":"UNKNOWN","ip":"192.168.124.6","requestParams":{"who":"hhh"},"httpMethod":"","threadName":"main","url":"http://localhost","threadId":"1","result":{"who":"hhh"},"browser":"UNKNOWN","timeCost":27}
+2021-11-03 08:41:28,297 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:55 - Starting SpringBootDemoLogAopApplicationTests using Java 16.0.2 on LAPTOP-5HBODS5U with PID 13600 (started by baiyuqi in D:\java-enterprise-course\course-space\cource-jee\chapter6-aop)
+2021-11-03 08:41:28,299 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-11-03 08:41:29,038 [main] WARN  [o.s.w.context.support.GenericWebApplicationContext] AbstractApplicationContext.java:591 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springBootDemoLogAopApplication': Initialization of bean failed; nested exception is org.aspectj.weaver.tools.UnsupportedPointcutPrimitiveException: Pointcut expression 'log()' contains unsupported pointcut primitive 'call'
+2021-11-03 08:41:29,047 [main] INFO  [o.s.b.a.l.ConditionEvaluationReportLoggingListener] ConditionEvaluationReportLoggingListener.java:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-11-03 08:41:29,129 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:55 - Starting SpringBootDemoLogAopApplicationTests using Java 16.0.2 on LAPTOP-5HBODS5U with PID 13600 (started by baiyuqi in D:\java-enterprise-course\course-space\cource-jee\chapter6-aop)
+2021-11-03 08:41:29,130 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-11-03 08:41:29,333 [main] WARN  [o.s.w.context.support.GenericWebApplicationContext] AbstractApplicationContext.java:591 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springBootDemoLogAopApplication': Initialization of bean failed; nested exception is org.aspectj.weaver.tools.UnsupportedPointcutPrimitiveException: Pointcut expression 'log()' contains unsupported pointcut primitive 'call'
+2021-11-03 08:41:29,335 [main] INFO  [o.s.b.a.l.ConditionEvaluationReportLoggingListener] ConditionEvaluationReportLoggingListener.java:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-11-03 09:48:35,002 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:55 - Starting SpringBootDemoLogAopApplicationTests using Java 16.0.2 on LAPTOP-5HBODS5U with PID 21672 (started by baiyuqi in D:\java-enterprise-course\course-space\cource-jee\chapter6-aop)
+2021-11-03 09:48:35,005 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-11-03 09:48:36,581 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:61 - Started SpringBootDemoLogAopApplicationTests in 1.909 seconds (JVM running for 2.714)
+2021-11-03 09:48:36,955 [main] INFO  [com.hbpvu.jec.log.aop.aspectj.AopLog] AopLog.java:87 - Request Log Info : {"classMethod":"com.hbpvu.jec.log.aop.controller.TestController.test","os":"UNKNOWN","ip":"192.168.124.6","requestParams":{"who":"hhh"},"httpMethod":"","threadName":"main","url":"http://localhost","threadId":"1","result":{"who":"hhh"},"browser":"UNKNOWN","timeCost":30}
+2021-11-03 09:48:53,261 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:55 - Starting SpringBootDemoLogAopApplicationTests using Java 16.0.2 on LAPTOP-5HBODS5U with PID 20224 (started by baiyuqi in D:\java-enterprise-course\course-space\cource-jee\chapter6-aop)
+2021-11-03 09:48:53,263 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-11-03 09:48:54,821 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:61 - Started SpringBootDemoLogAopApplicationTests in 1.892 seconds (JVM running for 2.756)
+2021-11-03 09:49:06,887 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:55 - Starting SpringBootDemoLogAopApplicationTests using Java 16.0.2 on LAPTOP-5HBODS5U with PID 3484 (started by baiyuqi in D:\java-enterprise-course\course-space\cource-jee\chapter6-aop)
+2021-11-03 09:49:06,890 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-11-03 09:49:08,786 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:61 - Started SpringBootDemoLogAopApplicationTests in 2.316 seconds (JVM running for 3.386)
+2021-11-03 09:49:15,990 [main] INFO  [com.hbpvu.jec.log.aop.aspectj.AopLog] AopLog.java:87 - Request Log Info : {"classMethod":"com.hbpvu.jec.log.aop.controller.TestController.test","os":"UNKNOWN","ip":"192.168.124.6","requestParams":{"who":"hhh"},"httpMethod":"","threadName":"main","url":"http://localhost","threadId":"1","result":{"who":"hhh"},"browser":"UNKNOWN","timeCost":2246}
+2021-11-03 09:49:40,890 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:55 - Starting SpringBootDemoLogAopApplicationTests using Java 16.0.2 on LAPTOP-5HBODS5U with PID 16488 (started by baiyuqi in D:\java-enterprise-course\course-space\cource-jee\chapter6-aop)
+2021-11-03 09:49:40,893 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-11-03 09:49:42,764 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:61 - Started SpringBootDemoLogAopApplicationTests in 2.278 seconds (JVM running for 3.365)
+2021-11-03 09:51:46,231 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:55 - Starting SpringBootDemoLogAopApplicationTests using Java 16.0.2 on LAPTOP-5HBODS5U with PID 12212 (started by baiyuqi in D:\java-enterprise-course\course-space\cource-jee\chapter6-aop)
+2021-11-03 09:51:46,235 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-11-03 09:51:47,045 [main] WARN  [o.s.w.context.support.GenericWebApplicationContext] AbstractApplicationContext.java:591 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springBootDemoLogAopApplication': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting 'identifier' at character position 52
+@annotation(org.springframework.web.bind.annotation.*Mapping)
+                                                    ^
+
+2021-11-03 09:51:47,053 [main] INFO  [o.s.b.a.l.ConditionEvaluationReportLoggingListener] ConditionEvaluationReportLoggingListener.java:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-11-03 09:51:47,142 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:55 - Starting SpringBootDemoLogAopApplicationTests using Java 16.0.2 on LAPTOP-5HBODS5U with PID 12212 (started by baiyuqi in D:\java-enterprise-course\course-space\cource-jee\chapter6-aop)
+2021-11-03 09:51:47,143 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-11-03 09:51:47,382 [main] WARN  [o.s.w.context.support.GenericWebApplicationContext] AbstractApplicationContext.java:591 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springBootDemoLogAopApplication': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting 'identifier' at character position 52
+@annotation(org.springframework.web.bind.annotation.*Mapping)
+                                                    ^
+
+2021-11-03 09:51:47,384 [main] INFO  [o.s.b.a.l.ConditionEvaluationReportLoggingListener] ConditionEvaluationReportLoggingListener.java:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-11-03 09:52:07,825 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:55 - Starting SpringBootDemoLogAopApplicationTests using Java 16.0.2 on LAPTOP-5HBODS5U with PID 20764 (started by baiyuqi in D:\java-enterprise-course\course-space\cource-jee\chapter6-aop)
+2021-11-03 09:52:07,827 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-11-03 09:52:08,520 [main] WARN  [o.s.w.context.support.GenericWebApplicationContext] AbstractApplicationContext.java:591 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springBootDemoLogAopApplication': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting ')' at character position 51
+@annotation(org.springframework.web.bind.annotation...*Mapping)
+                                                   ^^^
+
+2021-11-03 09:52:08,526 [main] INFO  [o.s.b.a.l.ConditionEvaluationReportLoggingListener] ConditionEvaluationReportLoggingListener.java:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-11-03 09:52:08,602 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:55 - Starting SpringBootDemoLogAopApplicationTests using Java 16.0.2 on LAPTOP-5HBODS5U with PID 20764 (started by baiyuqi in D:\java-enterprise-course\course-space\cource-jee\chapter6-aop)
+2021-11-03 09:52:08,603 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-11-03 09:52:08,799 [main] WARN  [o.s.w.context.support.GenericWebApplicationContext] AbstractApplicationContext.java:591 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springBootDemoLogAopApplication': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting ')' at character position 51
+@annotation(org.springframework.web.bind.annotation...*Mapping)
+                                                   ^^^
+
+2021-11-03 09:52:08,801 [main] INFO  [o.s.b.a.l.ConditionEvaluationReportLoggingListener] ConditionEvaluationReportLoggingListener.java:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-11-03 09:52:28,934 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:55 - Starting SpringBootDemoLogAopApplicationTests using Java 16.0.2 on LAPTOP-5HBODS5U with PID 25468 (started by baiyuqi in D:\java-enterprise-course\course-space\cource-jee\chapter6-aop)
+2021-11-03 09:52:28,937 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-11-03 09:52:29,761 [main] WARN  [o.s.w.context.support.GenericWebApplicationContext] AbstractApplicationContext.java:591 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springBootDemoLogAopApplication': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting 'identifier' at character position 52
+@annotation(org.springframework.web.bind.annotation..*Mapping)
+                                                    ^
+
+2021-11-03 09:52:29,770 [main] INFO  [o.s.b.a.l.ConditionEvaluationReportLoggingListener] ConditionEvaluationReportLoggingListener.java:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-11-03 09:52:29,859 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:55 - Starting SpringBootDemoLogAopApplicationTests using Java 16.0.2 on LAPTOP-5HBODS5U with PID 25468 (started by baiyuqi in D:\java-enterprise-course\course-space\cource-jee\chapter6-aop)
+2021-11-03 09:52:29,860 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-11-03 09:52:30,087 [main] WARN  [o.s.w.context.support.GenericWebApplicationContext] AbstractApplicationContext.java:591 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springBootDemoLogAopApplication': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting 'identifier' at character position 52
+@annotation(org.springframework.web.bind.annotation..*Mapping)
+                                                    ^
+
+2021-11-03 09:52:30,089 [main] INFO  [o.s.b.a.l.ConditionEvaluationReportLoggingListener] ConditionEvaluationReportLoggingListener.java:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-11-03 09:52:44,979 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:55 - Starting SpringBootDemoLogAopApplicationTests using Java 16.0.2 on LAPTOP-5HBODS5U with PID 21864 (started by baiyuqi in D:\java-enterprise-course\course-space\cource-jee\chapter6-aop)
+2021-11-03 09:52:44,982 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-11-03 09:52:45,695 [main] WARN  [o.s.w.context.support.GenericWebApplicationContext] AbstractApplicationContext.java:591 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springBootDemoLogAopApplication': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting 'identifier' at character position 52
+@annotation(org.springframework.web.bind.annotation..*)
+                                                    ^
+
+2021-11-03 09:52:45,702 [main] INFO  [o.s.b.a.l.ConditionEvaluationReportLoggingListener] ConditionEvaluationReportLoggingListener.java:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-11-03 09:52:45,781 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:55 - Starting SpringBootDemoLogAopApplicationTests using Java 16.0.2 on LAPTOP-5HBODS5U with PID 21864 (started by baiyuqi in D:\java-enterprise-course\course-space\cource-jee\chapter6-aop)
+2021-11-03 09:52:45,782 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-11-03 09:52:46,001 [main] WARN  [o.s.w.context.support.GenericWebApplicationContext] AbstractApplicationContext.java:591 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springBootDemoLogAopApplication': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting 'identifier' at character position 52
+@annotation(org.springframework.web.bind.annotation..*)
+                                                    ^
+
+2021-11-03 09:52:46,002 [main] INFO  [o.s.b.a.l.ConditionEvaluationReportLoggingListener] ConditionEvaluationReportLoggingListener.java:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-11-03 09:53:23,837 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:55 - Starting SpringBootDemoLogAopApplicationTests using Java 16.0.2 on LAPTOP-5HBODS5U with PID 11788 (started by baiyuqi in D:\java-enterprise-course\course-space\cource-jee\chapter6-aop)
+2021-11-03 09:53:23,839 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-11-03 09:53:24,552 [main] WARN  [o.s.w.context.support.GenericWebApplicationContext] AbstractApplicationContext.java:591 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springBootDemoLogAopApplication': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting ')' at character position 66
+@annotation(org.springframework.web.bind.annotation.RequestMapping*)
+                                                                  ^
+
+2021-11-03 09:53:24,559 [main] INFO  [o.s.b.a.l.ConditionEvaluationReportLoggingListener] ConditionEvaluationReportLoggingListener.java:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-11-03 09:53:24,633 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:55 - Starting SpringBootDemoLogAopApplicationTests using Java 16.0.2 on LAPTOP-5HBODS5U with PID 11788 (started by baiyuqi in D:\java-enterprise-course\course-space\cource-jee\chapter6-aop)
+2021-11-03 09:53:24,634 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-11-03 09:53:24,830 [main] WARN  [o.s.w.context.support.GenericWebApplicationContext] AbstractApplicationContext.java:591 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springBootDemoLogAopApplication': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting ')' at character position 66
+@annotation(org.springframework.web.bind.annotation.RequestMapping*)
+                                                                  ^
+
+2021-11-03 09:53:24,832 [main] INFO  [o.s.b.a.l.ConditionEvaluationReportLoggingListener] ConditionEvaluationReportLoggingListener.java:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-11-03 09:53:33,509 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:55 - Starting SpringBootDemoLogAopApplicationTests using Java 16.0.2 on LAPTOP-5HBODS5U with PID 21596 (started by baiyuqi in D:\java-enterprise-course\course-space\cource-jee\chapter6-aop)
+2021-11-03 09:53:33,511 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-11-03 09:53:35,175 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:61 - Started SpringBootDemoLogAopApplicationTests in 2.008 seconds (JVM running for 2.857)
+2021-11-03 09:53:40,697 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:55 - Starting SpringBootDemoLogAopApplicationTests using Java 16.0.2 on LAPTOP-5HBODS5U with PID 7940 (started by baiyuqi in D:\java-enterprise-course\course-space\cource-jee\chapter6-aop)
+2021-11-03 09:53:40,699 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-11-03 09:53:42,647 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:61 - Started SpringBootDemoLogAopApplicationTests in 2.375 seconds (JVM running for 3.447)
+2021-11-03 09:58:27,379 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:55 - Starting SpringBootDemoLogAopApplicationTests using Java 16.0.2 on LAPTOP-5HBODS5U with PID 9224 (started by baiyuqi in D:\java-enterprise-course\course-space\cource-jee\chapter6-aop)
+2021-11-03 09:58:27,382 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-11-03 09:58:29,437 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:61 - Started SpringBootDemoLogAopApplicationTests in 2.466 seconds (JVM running for 3.57)
+2021-11-03 09:58:53,179 [main] INFO  [com.hbpvu.jec.log.aop.aspectj.AopLog] AopLog.java:88 - Request Log Info : {"classMethod":"com.hbpvu.jec.log.aop.controller.TestController.test","os":"UNKNOWN","ip":"192.168.124.6","requestParams":{"who":"hhh"},"httpMethod":"","threadName":"main","url":"http://localhost","threadId":"1","result":{"who":"hhh"},"browser":"UNKNOWN","timeCost":17149}
+2021-11-03 09:59:09,461 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:55 - Starting SpringBootDemoLogAopApplicationTests using Java 16.0.2 on LAPTOP-5HBODS5U with PID 18868 (started by baiyuqi in D:\java-enterprise-course\course-space\cource-jee\chapter6-aop)
+2021-11-03 09:59:09,463 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-11-03 09:59:11,485 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:61 - Started SpringBootDemoLogAopApplicationTests in 2.445 seconds (JVM running for 3.532)
+2021-11-03 10:00:15,361 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:55 - Starting SpringBootDemoLogAopApplicationTests using Java 16.0.2 on LAPTOP-5HBODS5U with PID 24420 (started by baiyuqi in D:\java-enterprise-course\course-space\cource-jee\chapter6-aop)
+2021-11-03 10:00:15,364 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-11-03 10:00:17,353 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:61 - Started SpringBootDemoLogAopApplicationTests in 2.404 seconds (JVM running for 3.47)
+2021-11-03 10:00:56,914 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:55 - Starting SpringBootDemoLogAopApplicationTests using Java 16.0.2 on LAPTOP-5HBODS5U with PID 17776 (started by baiyuqi in D:\java-enterprise-course\course-space\cource-jee\chapter6-aop)
+2021-11-03 10:00:56,917 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-11-03 10:00:58,952 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:61 - Started SpringBootDemoLogAopApplicationTests in 2.453 seconds (JVM running for 3.553)
+2021-11-03 10:01:05,280 [main] INFO  [com.hbpvu.jec.log.aop.aspectj.AopLog] AopLog.java:88 - Request Log Info : {"classMethod":"com.hbpvu.jec.log.aop.controller.TestController.test","os":"UNKNOWN","ip":"192.168.124.6","requestParams":{"who":"hhh"},"httpMethod":"","threadName":"main","url":"http://localhost","threadId":"1","result":{"who":"hhh"},"browser":"UNKNOWN","timeCost":946}
+2021-11-03 10:02:37,198 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:55 - Starting SpringBootDemoLogAopApplicationTests using Java 16.0.2 on LAPTOP-5HBODS5U with PID 19412 (started by baiyuqi in D:\java-enterprise-course\course-space\cource-jee\chapter6-aop)
+2021-11-03 10:02:37,201 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-11-03 10:02:38,021 [main] WARN  [o.s.w.context.support.GenericWebApplicationContext] AbstractApplicationContext.java:591 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springBootDemoLogAopApplication': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting 'name pattern' at character position 35
+execution(public * ..*Controller.*(..))
+                                   ^
+
+2021-11-03 10:02:38,033 [main] INFO  [o.s.b.a.l.ConditionEvaluationReportLoggingListener] ConditionEvaluationReportLoggingListener.java:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-11-03 10:02:38,120 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:55 - Starting SpringBootDemoLogAopApplicationTests using Java 16.0.2 on LAPTOP-5HBODS5U with PID 19412 (started by baiyuqi in D:\java-enterprise-course\course-space\cource-jee\chapter6-aop)
+2021-11-03 10:02:38,121 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-11-03 10:02:38,359 [main] WARN  [o.s.w.context.support.GenericWebApplicationContext] AbstractApplicationContext.java:591 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springBootDemoLogAopApplication': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting 'name pattern' at character position 35
+execution(public * ..*Controller.*(..))
+                                   ^
+
+2021-11-03 10:02:38,361 [main] INFO  [o.s.b.a.l.ConditionEvaluationReportLoggingListener] ConditionEvaluationReportLoggingListener.java:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-11-03 10:03:08,509 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:55 - Starting SpringBootDemoLogAopApplicationTests using Java 16.0.2 on LAPTOP-5HBODS5U with PID 3368 (started by baiyuqi in D:\java-enterprise-course\course-space\cource-jee\chapter6-aop)
+2021-11-03 10:03:08,513 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-11-03 10:03:10,519 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:61 - Started SpringBootDemoLogAopApplicationTests in 2.416 seconds (JVM running for 3.514)
+2021-11-03 10:03:22,900 [main] INFO  [com.hbpvu.jec.log.aop.aspectj.AopLog] AopLog.java:88 - Request Log Info : {"classMethod":"com.hbpvu.jec.log.aop.controller.TestController.test","os":"UNKNOWN","ip":"192.168.124.6","requestParams":{"who":"hhh"},"httpMethod":"","threadName":"main","url":"http://localhost","threadId":"1","result":{"who":"hhh"},"browser":"UNKNOWN","timeCost":6203}
+2021-11-03 10:03:53,207 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:55 - Starting SpringBootDemoLogAopApplicationTests using Java 16.0.2 on LAPTOP-5HBODS5U with PID 23620 (started by baiyuqi in D:\java-enterprise-course\course-space\cource-jee\chapter6-aop)
+2021-11-03 10:03:53,210 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-11-03 10:03:55,179 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:61 - Started SpringBootDemoLogAopApplicationTests in 2.381 seconds (JVM running for 3.445)
+2021-11-03 10:04:19,382 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:55 - Starting SpringBootDemoLogAopApplicationTests using Java 16.0.2 on LAPTOP-5HBODS5U with PID 1264 (started by baiyuqi in D:\java-enterprise-course\course-space\cource-jee\chapter6-aop)
+2021-11-03 10:04:19,386 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-11-03 10:04:21,328 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:61 - Started SpringBootDemoLogAopApplicationTests in 2.353 seconds (JVM running for 3.443)
+2021-11-03 10:05:29,861 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:55 - Starting SpringBootDemoLogAopApplicationTests using Java 16.0.2 on LAPTOP-5HBODS5U with PID 24096 (started by baiyuqi in D:\java-enterprise-course\course-space\cource-jee\chapter6-aop)
+2021-11-03 10:05:29,864 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-11-03 10:05:30,731 [main] WARN  [o.s.w.context.support.GenericWebApplicationContext] AbstractApplicationContext.java:591 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springBootDemoLogAopApplication': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting 'name pattern' at character position 25
+execution(public * com...*Controller.*(..))
+                         ^
+
+2021-11-03 10:05:30,738 [main] INFO  [o.s.b.a.l.ConditionEvaluationReportLoggingListener] ConditionEvaluationReportLoggingListener.java:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-11-03 10:05:30,824 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:55 - Starting SpringBootDemoLogAopApplicationTests using Java 16.0.2 on LAPTOP-5HBODS5U with PID 24096 (started by baiyuqi in D:\java-enterprise-course\course-space\cource-jee\chapter6-aop)
+2021-11-03 10:05:30,826 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-11-03 10:05:31,071 [main] WARN  [o.s.w.context.support.GenericWebApplicationContext] AbstractApplicationContext.java:591 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springBootDemoLogAopApplication': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting 'name pattern' at character position 25
+execution(public * com...*Controller.*(..))
+                         ^
+
+2021-11-03 10:05:31,073 [main] INFO  [o.s.b.a.l.ConditionEvaluationReportLoggingListener] ConditionEvaluationReportLoggingListener.java:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-11-03 10:06:13,471 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:55 - Starting SpringBootDemoLogAopApplicationTests using Java 16.0.2 on LAPTOP-5HBODS5U with PID 12684 (started by baiyuqi in D:\java-enterprise-course\course-space\cource-jee\chapter6-aop)
+2021-11-03 10:06:13,475 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-11-03 10:06:14,363 [main] WARN  [o.s.w.context.support.GenericWebApplicationContext] AbstractApplicationContext.java:591 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springBootDemoLogAopApplication': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting 'name pattern' at character position 23
+execution(public * ..*(..))
+                       ^
+
+2021-11-03 10:06:14,373 [main] INFO  [o.s.b.a.l.ConditionEvaluationReportLoggingListener] ConditionEvaluationReportLoggingListener.java:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-11-03 10:06:14,482 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:55 - Starting SpringBootDemoLogAopApplicationTests using Java 16.0.2 on LAPTOP-5HBODS5U with PID 12684 (started by baiyuqi in D:\java-enterprise-course\course-space\cource-jee\chapter6-aop)
+2021-11-03 10:06:14,484 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-11-03 10:06:14,702 [main] WARN  [o.s.w.context.support.GenericWebApplicationContext] AbstractApplicationContext.java:591 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springBootDemoLogAopApplication': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting 'name pattern' at character position 23
+execution(public * ..*(..))
+                       ^
+
+2021-11-03 10:06:14,704 [main] INFO  [o.s.b.a.l.ConditionEvaluationReportLoggingListener] ConditionEvaluationReportLoggingListener.java:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-11-03 10:07:34,073 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:55 - Starting SpringBootDemoLogAopApplicationTests using Java 16.0.2 on LAPTOP-5HBODS5U with PID 22848 (started by baiyuqi in D:\java-enterprise-course\course-space\cource-jee\chapter6-aop)
+2021-11-03 10:07:34,077 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-11-03 10:07:35,997 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:61 - Started SpringBootDemoLogAopApplicationTests in 2.337 seconds (JVM running for 3.383)
+2021-11-03 10:08:29,488 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:55 - Starting SpringBootDemoLogAopApplicationTests using Java 16.0.2 on LAPTOP-5HBODS5U with PID 22572 (started by baiyuqi in D:\java-enterprise-course\course-space\cource-jee\chapter6-aop)
+2021-11-03 10:08:29,492 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-11-03 10:08:31,498 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:61 - Started SpringBootDemoLogAopApplicationTests in 2.458 seconds (JVM running for 3.53)
+2021-11-03 10:12:05,398 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:55 - Starting SpringBootDemoLogAopApplicationTests using Java 16.0.2 on LAPTOP-5HBODS5U with PID 19196 (started by baiyuqi in D:\java-enterprise-course\course-space\cource-jee\chapter6-aop)
+2021-11-03 10:12:05,400 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-11-03 10:12:07,325 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:61 - Started SpringBootDemoLogAopApplicationTests in 2.335 seconds (JVM running for 3.429)
+2021-11-03 10:14:36,663 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:55 - Starting SpringBootDemoLogAopApplicationTests using Java 16.0.2 on LAPTOP-5HBODS5U with PID 11588 (started by baiyuqi in D:\java-enterprise-course\course-space\cource-jee\chapter6-aop)
+2021-11-03 10:14:36,666 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-11-03 10:14:37,527 [main] WARN  [o.s.w.context.support.GenericWebApplicationContext] AbstractApplicationContext.java:591 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.AutoConfigurationPackages': Initialization of bean failed; nested exception is org.springframework.aop.framework.AopConfigException: Could not generate CGLIB subclass of class org.springframework.boot.autoconfigure.AutoConfigurationPackages$BasePackages: Common causes of this problem include using a final class or a non-visible class; nested exception is java.lang.IllegalArgumentException: Cannot subclass final class org.springframework.boot.autoconfigure.AutoConfigurationPackages$BasePackages
+2021-11-03 10:14:37,535 [main] INFO  [o.s.b.a.l.ConditionEvaluationReportLoggingListener] ConditionEvaluationReportLoggingListener.java:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-11-03 10:14:37,622 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:55 - Starting SpringBootDemoLogAopApplicationTests using Java 16.0.2 on LAPTOP-5HBODS5U with PID 11588 (started by baiyuqi in D:\java-enterprise-course\course-space\cource-jee\chapter6-aop)
+2021-11-03 10:14:37,623 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-11-03 10:14:37,866 [main] WARN  [o.s.w.context.support.GenericWebApplicationContext] AbstractApplicationContext.java:591 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.AutoConfigurationPackages': Initialization of bean failed; nested exception is org.springframework.aop.framework.AopConfigException: Could not generate CGLIB subclass of class org.springframework.boot.autoconfigure.AutoConfigurationPackages$BasePackages: Common causes of this problem include using a final class or a non-visible class; nested exception is java.lang.IllegalArgumentException: Cannot subclass final class org.springframework.boot.autoconfigure.AutoConfigurationPackages$BasePackages
+2021-11-03 10:14:37,869 [main] INFO  [o.s.b.a.l.ConditionEvaluationReportLoggingListener] ConditionEvaluationReportLoggingListener.java:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-11-03 10:14:58,256 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:55 - Starting SpringBootDemoLogAopApplicationTests using Java 16.0.2 on LAPTOP-5HBODS5U with PID 10024 (started by baiyuqi in D:\java-enterprise-course\course-space\cource-jee\chapter6-aop)
+2021-11-03 10:14:58,258 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-11-03 10:14:59,068 [main] WARN  [o.s.w.context.support.GenericWebApplicationContext] AbstractApplicationContext.java:591 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springBootDemoLogAopApplication': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting 'name pattern' at character position 20
+execution(public **(..))
+                    ^
+
+2021-11-03 10:14:59,075 [main] INFO  [o.s.b.a.l.ConditionEvaluationReportLoggingListener] ConditionEvaluationReportLoggingListener.java:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-11-03 10:14:59,164 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:55 - Starting SpringBootDemoLogAopApplicationTests using Java 16.0.2 on LAPTOP-5HBODS5U with PID 10024 (started by baiyuqi in D:\java-enterprise-course\course-space\cource-jee\chapter6-aop)
+2021-11-03 10:14:59,165 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-11-03 10:14:59,399 [main] WARN  [o.s.w.context.support.GenericWebApplicationContext] AbstractApplicationContext.java:591 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springBootDemoLogAopApplication': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting 'name pattern' at character position 20
+execution(public **(..))
+                    ^
+
+2021-11-03 10:14:59,400 [main] INFO  [o.s.b.a.l.ConditionEvaluationReportLoggingListener] ConditionEvaluationReportLoggingListener.java:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-11-03 10:15:10,032 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:55 - Starting SpringBootDemoLogAopApplicationTests using Java 16.0.2 on LAPTOP-5HBODS5U with PID 25180 (started by baiyuqi in D:\java-enterprise-course\course-space\cource-jee\chapter6-aop)
+2021-11-03 10:15:10,034 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-11-03 10:15:10,709 [main] WARN  [o.s.w.context.support.GenericWebApplicationContext] AbstractApplicationContext.java:591 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springBootDemoLogAopApplication': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting 'name pattern' at character position 19
+execution(public *(..))
+                   ^
+
+2021-11-03 10:15:10,715 [main] INFO  [o.s.b.a.l.ConditionEvaluationReportLoggingListener] ConditionEvaluationReportLoggingListener.java:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-11-03 10:15:10,792 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:55 - Starting SpringBootDemoLogAopApplicationTests using Java 16.0.2 on LAPTOP-5HBODS5U with PID 25180 (started by baiyuqi in D:\java-enterprise-course\course-space\cource-jee\chapter6-aop)
+2021-11-03 10:15:10,793 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-11-03 10:15:10,986 [main] WARN  [o.s.w.context.support.GenericWebApplicationContext] AbstractApplicationContext.java:591 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springBootDemoLogAopApplication': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting 'name pattern' at character position 19
+execution(public *(..))
+                   ^
+
+2021-11-03 10:15:10,988 [main] INFO  [o.s.b.a.l.ConditionEvaluationReportLoggingListener] ConditionEvaluationReportLoggingListener.java:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-11-03 10:20:02,685 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:55 - Starting SpringBootDemoLogAopApplicationTests using Java 16.0.2 on LAPTOP-5HBODS5U with PID 3916 (started by baiyuqi in D:\java-enterprise-course\course-space\cource-jee\chapter6-aop)
+2021-11-03 10:20:02,690 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-11-03 10:20:04,634 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:61 - Started SpringBootDemoLogAopApplicationTests in 2.346 seconds (JVM running for 3.452)
+2021-11-03 10:21:45,263 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:55 - Starting SpringBootDemoLogAopApplicationTests using Java 16.0.2 on LAPTOP-5HBODS5U with PID 20128 (started by baiyuqi in D:\java-enterprise-course\course-space\cource-jee\chapter6-aop)
+2021-11-03 10:21:45,268 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-11-03 10:21:46,165 [main] WARN  [o.s.w.context.support.GenericWebApplicationContext] AbstractApplicationContext.java:591 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.AutoConfigurationPackages': Initialization of bean failed; nested exception is org.springframework.aop.framework.AopConfigException: Could not generate CGLIB subclass of class org.springframework.boot.autoconfigure.AutoConfigurationPackages$BasePackages: Common causes of this problem include using a final class or a non-visible class; nested exception is java.lang.IllegalArgumentException: Cannot subclass final class org.springframework.boot.autoconfigure.AutoConfigurationPackages$BasePackages
+2021-11-03 10:21:46,172 [main] INFO  [o.s.b.a.l.ConditionEvaluationReportLoggingListener] ConditionEvaluationReportLoggingListener.java:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-11-03 10:21:46,270 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:55 - Starting SpringBootDemoLogAopApplicationTests using Java 16.0.2 on LAPTOP-5HBODS5U with PID 20128 (started by baiyuqi in D:\java-enterprise-course\course-space\cource-jee\chapter6-aop)
+2021-11-03 10:21:46,272 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-11-03 10:21:46,534 [main] WARN  [o.s.w.context.support.GenericWebApplicationContext] AbstractApplicationContext.java:591 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.AutoConfigurationPackages': Initialization of bean failed; nested exception is org.springframework.aop.framework.AopConfigException: Could not generate CGLIB subclass of class org.springframework.boot.autoconfigure.AutoConfigurationPackages$BasePackages: Common causes of this problem include using a final class or a non-visible class; nested exception is java.lang.IllegalArgumentException: Cannot subclass final class org.springframework.boot.autoconfigure.AutoConfigurationPackages$BasePackages
+2021-11-03 10:21:46,535 [main] INFO  [o.s.b.a.l.ConditionEvaluationReportLoggingListener] ConditionEvaluationReportLoggingListener.java:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-11-03 10:22:28,663 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:55 - Starting SpringBootDemoLogAopApplicationTests using Java 16.0.2 on LAPTOP-5HBODS5U with PID 25244 (started by baiyuqi in D:\java-enterprise-course\course-space\cource-jee\chapter6-aop)
+2021-11-03 10:22:28,666 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-11-03 10:22:30,820 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:61 - Started SpringBootDemoLogAopApplicationTests in 2.567 seconds (JVM running for 3.606)
+2021-11-03 10:22:36,322 [main] INFO  [com.hbpvu.jec.log.aop.aspectj.AopLog] AopLog.java:90 - Request Log Info : {"classMethod":"com.hbpvu.jec.log.aop.controller.TestController.test","os":"UNKNOWN","ip":"192.168.124.6","requestParams":{"who":"hhh"},"httpMethod":"","threadName":"main","url":"http://localhost","threadId":"1","result":{"who":"hhh"},"browser":"UNKNOWN","timeCost":859}
+2021-11-03 11:03:58,269 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:55 - Starting SpringBootDemoLogAopApplicationTests using Java 16.0.2 on LAPTOP-5HBODS5U with PID 16844 (started by baiyuqi in D:\java-enterprise-course\course-space\cource-jee\chapter6-aop)
+2021-11-03 11:03:58,272 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-11-03 11:03:59,154 [main] WARN  [o.s.w.context.support.GenericWebApplicationContext] AbstractApplicationContext.java:591 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.AutoConfigurationPackages': Initialization of bean failed; nested exception is org.springframework.aop.framework.AopConfigException: Could not generate CGLIB subclass of class org.springframework.boot.autoconfigure.AutoConfigurationPackages$BasePackages: Common causes of this problem include using a final class or a non-visible class; nested exception is java.lang.IllegalArgumentException: Cannot subclass final class org.springframework.boot.autoconfigure.AutoConfigurationPackages$BasePackages
+2021-11-03 11:03:59,161 [main] INFO  [o.s.b.a.l.ConditionEvaluationReportLoggingListener] ConditionEvaluationReportLoggingListener.java:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-11-03 11:03:59,249 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:55 - Starting SpringBootDemoLogAopApplicationTests using Java 16.0.2 on LAPTOP-5HBODS5U with PID 16844 (started by baiyuqi in D:\java-enterprise-course\course-space\cource-jee\chapter6-aop)
+2021-11-03 11:03:59,250 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-11-03 11:03:59,479 [main] WARN  [o.s.w.context.support.GenericWebApplicationContext] AbstractApplicationContext.java:591 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.AutoConfigurationPackages': Initialization of bean failed; nested exception is org.springframework.aop.framework.AopConfigException: Could not generate CGLIB subclass of class org.springframework.boot.autoconfigure.AutoConfigurationPackages$BasePackages: Common causes of this problem include using a final class or a non-visible class; nested exception is java.lang.IllegalArgumentException: Cannot subclass final class org.springframework.boot.autoconfigure.AutoConfigurationPackages$BasePackages
+2021-11-03 11:03:59,481 [main] INFO  [o.s.b.a.l.ConditionEvaluationReportLoggingListener] ConditionEvaluationReportLoggingListener.java:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-11-03 11:05:25,491 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:55 - Starting SpringBootDemoLogAopApplicationTests using Java 16.0.2 on LAPTOP-5HBODS5U with PID 24412 (started by baiyuqi in D:\java-enterprise-course\course-space\cource-jee\chapter6-aop)
+2021-11-03 11:05:25,494 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-11-03 11:05:27,634 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:61 - Started SpringBootDemoLogAopApplicationTests in 2.576 seconds (JVM running for 3.708)
+2021-11-03 11:05:36,092 [main] INFO  [com.hbpvu.jec.log.aop.aspectj.AopLog] AopLog.java:90 - Request Log Info : {"classMethod":"com.hbpvu.jec.log.aop.controller.TestController.test","os":"UNKNOWN","ip":"192.168.124.6","requestParams":{"who":"hhh"},"httpMethod":"","threadName":"main","url":"http://localhost","threadId":"1","result":{"who":"hhh"},"browser":"UNKNOWN","timeCost":3100}
+2021-11-03 11:05:42,620 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:55 - Starting SpringBootDemoLogAopApplicationTests using Java 16.0.2 on LAPTOP-5HBODS5U with PID 3052 (started by baiyuqi in D:\java-enterprise-course\course-space\cource-jee\chapter6-aop)
+2021-11-03 11:05:42,624 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-11-03 11:05:44,761 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:61 - Started SpringBootDemoLogAopApplicationTests in 2.563 seconds (JVM running for 3.613)
+2021-11-03 11:08:21,366 [main] INFO  [com.hbpvu.jec.log.aop.aspectj.AopLog] AopLog.java:90 - Request Log Info : {"classMethod":"com.hbpvu.jec.log.aop.controller.TestController.test","os":"UNKNOWN","ip":"192.168.124.6","requestParams":{"who":"hhh"},"httpMethod":"","threadName":"main","url":"http://localhost","threadId":"1","result":{"who":"hhh"},"browser":"UNKNOWN","timeCost":79452}
+2021-11-03 11:08:36,112 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:55 - Starting SpringBootDemoLogAopApplicationTests using Java 16.0.2 on LAPTOP-5HBODS5U with PID 23968 (started by baiyuqi in D:\java-enterprise-course\course-space\cource-jee\chapter6-aop)
+2021-11-03 11:08:36,116 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-11-03 11:08:38,279 [main] INFO  [c.x.log.aop.SpringBootDemoLogAopApplicationTests] StartupInfoLogger.java:61 - Started SpringBootDemoLogAopApplicationTests in 2.577 seconds (JVM running for 3.663)
+2021-11-03 11:08:43,600 [main] INFO  [com.hbpvu.jec.log.aop.aspectj.AopLog] AopLog.java:90 - Request Log Info : {"classMethod":"com.hbpvu.jec.log.aop.controller.TestController.test","os":"UNKNOWN","ip":"192.168.124.6","requestParams":{"who":"hhh"},"httpMethod":"","threadName":"main","url":"http://localhost","threadId":"1","result":{"who":"hhh"},"browser":"UNKNOWN","timeCost":1286}
+2021-11-03 11:09:19,844 [main] INFO  [c.h.jec.log.aop.SpringBootDemoLogAopApplication] StartupInfoLogger.java:55 - Starting SpringBootDemoLogAopApplication using Java 16.0.2 on LAPTOP-5HBODS5U with PID 23100 (D:\java-enterprise-course\course-space\cource-jee\chapter6-aop\target\classes started by baiyuqi in D:\java-enterprise-course\course-space\cource-jee\chapter6-aop)
+2021-11-03 11:09:19,847 [main] INFO  [c.h.jec.log.aop.SpringBootDemoLogAopApplication] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-11-03 11:09:20,839 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+2021-11-03 11:09:20,849 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+2021-11-03 11:09:20,849 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-11-03 11:09:20,945 [main] INFO  [o.a.c.c.ContainerBase.[Tomcat].[localhost].[/demo]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+2021-11-03 11:09:20,945 [main] INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] ServletWebServerApplicationContext.java:290 - Root WebApplicationContext: initialization completed in 1055 ms
+2021-11-03 11:09:21,458 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:220 - Tomcat started on port(s): 8080 (http) with context path '/demo'
+2021-11-03 11:09:21,467 [main] INFO  [c.h.jec.log.aop.SpringBootDemoLogAopApplication] StartupInfoLogger.java:61 - Started SpringBootDemoLogAopApplication in 2.02 seconds (JVM running for 2.351)
+2021-11-03 11:09:28,703 [http-nio-8080-exec-1] INFO  [o.a.c.c.ContainerBase.[Tomcat].[localhost].[/demo]] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-03 11:09:28,704 [http-nio-8080-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:525 - Initializing Servlet 'dispatcherServlet'
+2021-11-03 11:09:28,704 [http-nio-8080-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:547 - Completed initialization in 0 ms
+2021-11-03 11:09:28,773 [http-nio-8080-exec-1] INFO  [com.hbpvu.jec.log.aop.aspectj.AopLog] AopLog.java:90 - Request Log Info : {"classMethod":"com.hbpvu.jec.log.aop.controller.TestController.test","os":"WINDOWS_10","ip":"0:0:0:0:0:0:0:1","requestParams":{"who":"ppp"},"userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36","httpMethod":"GET","threadName":"http-nio-8080-exec-1","url":"http://localhost:8080/demo/test","threadId":"25","result":{"who":"ppp"},"browser":"CHROME9","timeCost":25}
