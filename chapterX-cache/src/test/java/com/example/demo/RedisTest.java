@@ -1,14 +1,15 @@
-package com.xkcoding.cache.redis;
+package com.example.demo;
 
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.data.redis.core.HashOperations;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.data.redis.core.ValueOperations;
 
-import com.hbpvu.jec.log.redis.entity.User;
+import com.hbpvu.jec.bookstore.BookstoreApplication;
 
 import java.io.Serializable;
 import java.util.HashMap;
@@ -26,15 +27,18 @@ import java.util.stream.IntStream;
  * @author yangkai.shen
  * @date Created in 2018-11-15 17:17
  */
+@SpringBootTest(classes= {BookstoreApplication.class})
 @Slf4j
-public class RedisTest extends SpringBootDemoCacheRedisApplicationTests {
+public class RedisTest {
 
     @Autowired
     private StringRedisTemplate stringRedisTemplate;
 
     @Autowired
     private RedisTemplate<String, Serializable> redisCacheTemplate;
-
+    @Test
+    public void contextLoads() {
+    }
     /**
      * 测试 Redis 操作
      */

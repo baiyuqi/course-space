@@ -15,7 +15,7 @@ public class Playaround {
 		user.setEmail("byq@sina.com");
 		user.setName("byq");
 		String s = mapper.writeValueAsString(user);
-		User u = mapper.readerFor(User.class).readValue(s);
+		User u = mapper.reader().readValue(s);
 		System.out.println(s);
 
 	}
