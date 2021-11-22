@@ -14,13 +14,15 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>chapterX-sharding-jdbc</name>
 	<description>tutorial for chapter3 and 4</description>
+<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<java.version>1.8</java.version>
+		<hutool.version>5.4.5</hutool.version>
+		<guava.version>29.0-jre</guava.version>
+		<user.agent.version>1.20</user.agent.version>
+	</properties>
 
-
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-    <java.version>1.8</java.version>
-  </properties>
 
   <dependencies>
     <dependency>
@@ -54,6 +56,7 @@
     <dependency>
       <groupId>cn.hutool</groupId>
       <artifactId>hutool-all</artifactId>
+      <version>${hutool.version}</version>
     </dependency>
 
     <dependency>
