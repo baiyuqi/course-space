@@ -21,6 +21,6 @@ public interface ProductService {
   void updateProduct(Product product);
 
   Page<Product> findAllProducts(Pageable pageable);
-
+  Page<Product> findByCategoryId(String sort, Integer page, Integer size, String cid);
   Page<Product> getAllProducts(String sort, Integer page, Integer size);
 }

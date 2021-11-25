@@ -3,6 +3,7 @@ package com.hbpvu.jec.bookstore;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.data.domain.Page;
 
 import com.hbpvu.jec.bookstore.catalog.repository.dao.Product;
 import com.hbpvu.jec.bookstore.catalog.repository.dao.ProductCategoryDigest;
@@ -16,6 +17,12 @@ class DemoApplicationTests {
 	void contextLoads() {
 	}
 	@Test
+	void findByCat() {
+		Page<Product> rst = productService.findByCategoryId("name,asc", 0, 20, "12345");
+		for(Product p : rst.getContent())
+			System.out.println(p.getName());
+	}
+	//@Test
 	void addProduct() {
 		Product p = new Product();
 		p.setName("human action");
