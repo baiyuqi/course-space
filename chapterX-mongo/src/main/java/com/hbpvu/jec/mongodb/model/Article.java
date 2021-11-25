@@ -1,4 +1,4 @@
-package com.xkcoding.mongodb.model;
+package com.hbpvu.jec.mongodb.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

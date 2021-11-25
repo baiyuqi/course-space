@@ -1,4 +1,4 @@
-package com.xkcoding.mongodb;
+package com.hbpvu.jec.mongodb;
 
 import cn.hutool.core.lang.Snowflake;
 import cn.hutool.core.util.IdUtil;
@@ -6,7 +6,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
-/**
+/**持久层开发
  * <p>
  * 启动器
  * </p>

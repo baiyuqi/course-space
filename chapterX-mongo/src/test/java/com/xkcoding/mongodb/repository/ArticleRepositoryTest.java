@@ -5,8 +5,10 @@ import cn.hutool.core.lang.Snowflake;
 import cn.hutool.core.util.RandomUtil;
 import cn.hutool.json.JSONUtil;
 import com.google.common.collect.Lists;
+import com.hbpvu.jec.mongodb.model.Article;
+import com.hbpvu.jec.mongodb.repository.ArticleRepository;
 import com.xkcoding.mongodb.SpringBootDemoMongodbApplicationTests;
-import com.xkcoding.mongodb.model.Article;
+
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -80,7 +82,7 @@ public class ArticleRepositoryTest extends SpringBootDemoMongodbApplicationTests
     /**
      * 测试删除
      */
-    @Test
+ //   @Test
     public void testDelete() {
         // 根据主键删除
         articleRepo.deleteById(1L);

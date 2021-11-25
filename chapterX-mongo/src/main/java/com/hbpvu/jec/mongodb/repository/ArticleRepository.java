@@ -1,7 +1,8 @@
-package com.xkcoding.mongodb.repository;
+package com.hbpvu.jec.mongodb.repository;
 
-import com.xkcoding.mongodb.model.Article;
 import org.springframework.data.mongodb.repository.MongoRepository;
+
+import com.hbpvu.jec.mongodb.model.Article;
 
 import java.util.List;
 
