@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hbpvu.jec.bookstore.catalog.repository.mapper.ProductCategoryMapper">
+
+    <insert id="save">
+        INSERT INTO `orm_product_category` (`id`,
+        						`name`,
+                                `description`,
+                                `created_at`,
+                                `updated_at`)
+        VALUES (#{product.id},
+        		#{product.name},
+                #{product.description},
+                #{product.createdAt},
+                #{product.updatedAt})
+    </insert>
+
+    <delete id="deleteById">
+        DELETE
+        FROM `orm_product_category`
+        WHERE `id` = #{id}
+    </delete>
+</mapper>

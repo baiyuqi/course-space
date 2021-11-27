@@ -25,7 +25,7 @@ public interface UserMapper {
      *
      * @return 用户列表
      */
-    @Select("SELECT * FROM orm_user")
+    @Select("SELECT * FROM orm_user")//List<Map<String, Object>> productCategoryId<->product_category_id
     List<User> selectAllUser();
 
     /**
