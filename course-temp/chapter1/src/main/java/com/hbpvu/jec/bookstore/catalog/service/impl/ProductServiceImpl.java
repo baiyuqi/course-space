@@ -92,14 +92,7 @@ public class ProductServiceImpl implements ProductService {
             productExisting.setImageId(product.getImageId());
         }
 
-        if (product.getCategory() != null) {
-            Optional<ProductCategory> productCategoryOptional =
-                    productCategoryRepository.findById(product.getCategory().getId());
-
-            //check weather product category exists
-            ProductCategory productCategory = productCategoryOptional.orElseThrow(() -> new RuntimeException("ProductCategory doesn't exist!"));
-            productExisting.setCategory(productCategory);
-        }
+     
 
         if (product.getAvailableItemCount() != 0) {
             productExisting.setAvailableItemCount(product.getAvailableItemCount());

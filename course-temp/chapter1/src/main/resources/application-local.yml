@@ -5,18 +5,28 @@ spring:
     username: sa
     password:
     driverClassName: org.h2.Driver
-  jpa:
-    database-platform: org.hibernate.dialect.H2Dialect
-    hibernate:
-      ddl-auto: update
-    properties:
-      hibernate:
-        show_sql: true
-        use_sql_comments: true
-        format_sql: true
-  h2:
-    console:
-      enabled: true
-      settings:
-        trace: false
-        web-allow-others: false
+    initialization-mode: always
+    continue-on-error: true
+    schema:
+    - "classpath:db/schema.sql"
+    data:
+    - "classpath:db/data.sql"
+    hikari:
+      minimum-idle: 5
+      connection-test-query: SELECT 1 FROM DUAL
+      maximum-pool-size: 20
+      auto-commit: true
+      idle-timeout: 30000
+      pool-name: SpringBootDemoHikariCP
+      max-lifetime: 60000
+      connection-timeout: 30000
+logging:
+  level:
+    com.xkcoding: debug
+    com.xkcoding.orm.mybatis.mapper: trace
+mybatis:
+  configuration:
+    # 下划线转驼峰
+    map-underscore-to-camel-case: true
+  mapper-locations: classpath:mappers/*.xml
+  type-aliases-package: com.xkcoding.orm.mybatis.entity
