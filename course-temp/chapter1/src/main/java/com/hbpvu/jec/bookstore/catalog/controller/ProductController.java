@@ -40,7 +40,7 @@ public class ProductController {
 
         return ResponseEntity.ok(product);
     }
-
+    //http://localhost:8080/product/getproduct?id=123456
     @GetMapping("/product/{productId}")
     public ResponseEntity<Product> getProduct(@PathVariable("productId") String productId) {
 
