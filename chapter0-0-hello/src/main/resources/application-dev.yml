@@ -15,3 +15,5 @@ spring:
     # 配置指明在程序启动的时候要删除并且创建实体类对应的表。
     hibernate:
       ddl-auto: create #update
+server:
+   port:8090

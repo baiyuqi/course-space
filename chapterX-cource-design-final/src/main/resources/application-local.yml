@@ -1,0 +1,39 @@
+spring:
+
+  main:
+     allow-bean-definition-overriding: true
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: myarticles
+  datasource:
+    url: jdbc:h2:mem:h2test;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+    platform: h2
+    username: sa
+    password:
+    driverClassName: org.h2.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        show_sql: true
+        use_sql_comments: true
+        format_sql: true
+  h2:
+    console:
+      enabled: true
+      settings:
+        trace: false
+        web-allow-others: false
+
+security:
+  jwt:
+    key-store: classpath:JWTKeystore.p12
+    key-store-password: devdcorespass
+    key-pair-alias: jwt-key
+    key-pair-password: devdcorespass
+    public-key: classpath:jwt-signing-public-key.txt
+        
