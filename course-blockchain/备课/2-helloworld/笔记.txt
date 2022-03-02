@@ -1,0 +1,4 @@
+
+1. remix环境部署调试合约基本操作
+2.调用合约
+3.web3js文档https://web3js.readthedocs.io/en/v1.2.11/web3-eth.html#sign

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>Insert title here</title>
+<script src="web3.min.js"></script>
+<style>
+body{ 
+background-color:#5544aa;
+background-image:url('images/b9.jpg');
+text-align:center;
+} 
+ 
+.div{ 
+	margin:0 auto; 
+ 
+	border:1px solid #F00;
+	position: absolute;   
+    top: 50%;   
+    left: 40%;   
+	} 
+.button {
+    background-color: #4CAF50; /* Green */
+    border: 3;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 4px 2px;
+    cursor: pointer;
+    align: center;
+}
+
+</style>
+</head>
+<body>
+
+	<script type="text/javascript">
+
+		       var abi = [
+            {
+                "constant": true,
+                "inputs": [],
+                "name": "val",
+                "outputs": [
+                    {
+                        "name": "",
+                        "type": "uint256"
+                    }
+                ],
+                "payable": false,
+                "stateMutability": "view",
+                "type": "function"
+            },
+            {
+                "constant": false,
+                "inputs": [
+                    {
+                        "name": "_val",
+                        "type": "uint256"
+                    }
+                ],
+                "name": "set",
+                "outputs": [],
+                "payable": false,
+                "stateMutability": "nonpayable",
+                "type": "function"
+            },
+            {
+                "constant": true,
+                "inputs": [],
+                "name": "get",
+                "outputs": [
+                    {
+                        "name": "",
+                        "type": "uint256"
+                    }
+                ],
+                "payable": false,
+                "stateMutability": "view",
+                "type": "function"
+            },
+            {
+                "anonymous": false,
+                "inputs": [
+                    {
+                        "indexed": false,
+                        "name": "val",
+                        "type": "uint256"
+                    }
+                ],
+                "name": "Set",
+                "type": "event"
+            }
+        ];
+        function accessContract(){
+        var contractAddress = "0x18b490cddf021886af0e5f3129468533c0026da2";
+  
+        var ZombieFactory = new web3.eth.Contract(abi,contractAddress);
+        //合约地址，发布之后在以太坊上生成的合约地址
+        //4、根据合约地址获取合约实例
+ //       var ZombieFactory = ZombieFactoryContract.at(contractAddress);
+        //5、监听合约中定义的事件, 执行UI操作，合约实例能访问合约中公共的函数以及事件
+       ZombieFactory.methods.Set('new string').send({ from: _yourAccount })
+        var event = ZombieFactory.Set(function(error, result) {
+            if (error) {
+                return
+            }
+            console.log("9999");
+            //console.log(result.args.val.c);
+      
+        });
+        }
+		var myDate = new Date();
+		var timestamp = myDate.getTime();
+
+		function onsign(error, signature){
+	        	var ajax = new XMLHttpRequest();
+	
+				ajax.onreadystatechange = function(){
+					
+					if(ajax.readyState == 4 && ajax.status == 200){
+						var msg = ajax.responseText;
+						alert(msg);
+						var json =  JSON.parse(msg)
+						if(json.success)
+							window.location = 'index.html';
+						else
+							alert(json.message)
+						
+					}
+				}
+				
+				
+				var identity = web3.eth.coinbase;
+				ajax.open('get','auth/login?identity='+identity+'&timestamp='+timestamp + "&signature=" + signature);
+				ajax.send(null);
+	        };
+	        
+		function login(){
+			web3.eth.getCoinbase().then(function(coinbase, error){
+				var data = web3.utils.fromUtf8(timestamp + coinbase);
+				data = web3.utils.sha3(data);
+	        			web3.eth.sign(data, coinbase,onsign);
+			}).catch(function (error) {
+                                  // Handle error. Likely the user rejected the login
+                          console.error(error)
+             });
+			
+		}
+		window.addEventListener('load', function() {
+	        if (!window.web3) {//用来判断你是否安装了metamask
+	          window.alert('Please install MetaMask first.');
+	          return;
+	        }
+	      	if (window.ethereum) {
+                      ethereum.enable().then(function (accounts) {
+                          window.web3 = new Web3(ethereum);
+                        // window.web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8545"));
+	                 accessContract();
+
+                      })
+                    .catch(function (error) {
+                                  // Handle error. Likely the user rejected the login
+                          console.error(error)
+                    });
+ 			 
+		      
+	        }
+
+		});
+
+
+
+	</script>
+	<div class="div"> 
+		<input type="button" onclick="javascropt:login()" class="button" value="log in by your wallet"></input>
+ 	</div> 
+</body>
+</html>
